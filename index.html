@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Lernix11</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:
+        radial-gradient(circle at top,#202020 0%,#080808 45%);
+    color:white;
+}
+
+/* HEADER */
+
+.header{
+    text-align:center;
+    padding:45px 18px 30px;
+}
+
+.logo{
+    display:inline-block;
+    padding:10px 22px;
+    border:1px solid #444;
+    border-radius:50px;
+    background:#111;
+    box-shadow:0 8px 25px rgba(0,0,0,.5);
+}
+
+.logo span{
+    font-size:14px;
+    color:#aaa;
+    letter-spacing:3px;
+}
+
+.header h1{
+    margin:20px 0 8px;
+    font-family:cursive;
+    font-size:48px;
+    letter-spacing:2px;
+}
+
+.header .tagline{
+    color:#d0d0d0;
+    font-size:17px;
+    margin:8px 0;
+}
+
+.header .sub{
+    color:#777;
+    font-size:14px;
+}
+
+
+/* PCM BADGE */
+
+.pcm-badge{
+    width:calc(100% - 30px);
+    max-width:600px;
+    margin:5px auto 25px;
+    padding:16px;
+    text-align:center;
+    background:linear-gradient(145deg,#050505,#1d1d1d);
+    border:1px solid #444;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.5);
+}
+
+.pcm-badge strong{
+    font-family:cursive;
+    font-size:25px;
+    letter-spacing:4px;
+}
+
+.pcm-badge p{
+    margin:6px 0 0;
+    color:#999;
+    font-size:13px;
+}
+
+
+/* SUBJECT CARDS */
+
+.subject{
+    margin:20px 15px;
+    padding:25px 20px;
+    background:linear-gradient(145deg,#111,#252525);
+    border:1px solid #3d3d3d;
+    border-radius:28px;
+    box-shadow:0 12px 30px rgba(0,0,0,.55);
+    text-align:center;
+}
+
+.subject:active{
+    transform:scale(.99);
+}
+
+.icon{
+    width:105px;
+    height:105px;
+    margin:0 auto 18px;
+    background:#191919;
+    border:1px solid #333;
+    border-radius:28px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:55px;
+    box-shadow:inset 0 0 20px rgba(255,255,255,.03);
+}
+
+.subject h2{
+    margin:5px 0;
+    font-family:cursive;
+    font-size:32px;
+}
+
+.subject h3{
+    margin:8px 0;
+    color:#ddd;
+    font-family:cursive;
+    font-size:20px;
+}
+
+.subject p{
+    color:#aaa;
+    line-height:1.7;
+    font-size:14px;
+}
+
+.open-btn{
+    display:block;
+    width:100%;
+    margin-top:20px;
+    padding:15px;
+    border:none;
+    border-radius:16px;
+    background:white;
+    color:#111;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    box-shadow:0 6px 15px rgba(0,0,0,.3);
+}
+
+.open-btn:active{
+    transform:scale(.96);
+}
+
+
+/* ABOUT */
+
+.about{
+    margin:32px 15px 20px;
+    padding:27px 20px;
+    background:linear-gradient(145deg,#111,#202020);
+    border:1px solid #3d3d3d;
+    border-radius:28px;
+    text-align:center;
+    box-shadow:0 12px 30px rgba(0,0,0,.45);
+}
+
+.about-title{
+    font-family:cursive;
+    font-size:30px;
+    margin:0 0 20px;
+}
+
+.info{
+    background:#151515;
+    margin:10px 0;
+    padding:13px;
+    border-radius:14px;
+    color:#ccc;
+    border:1px solid #292929;
+}
+
+.info b{
+    color:white;
+}
+
+
+/* CREATOR */
+
+.creator{
+    margin-top:20px;
+    padding:18px;
+    background:#0d0d0d;
+    border-radius:18px;
+    border:1px solid #333;
+}
+
+.creator-name{
+    font-family:cursive;
+    font-size:23px;
+    margin:5px 0;
+}
+
+.creator p{
+    color:#888;
+    margin:5px 0;
+    font-size:13px;
+}
+
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    padding:30px 15px;
+    color:#666;
+    font-size:13px;
+    line-height:1.8;
+}
+
+.footer strong{
+    color:#999;
+}
+
+
+/* SMALL SCREEN */
+
+@media(max-width:380px){
+
+    .header h1{
+        font-size:40px;
+    }
+
+    .subject h2{
+        font-size:28px;
+    }
+
+    .icon{
+        width:90px;
+        height:90px;
+        font-size:48px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<div class="header">
+
+    <div class="logo">
+        <span>STUDY • PRACTICE • GROW</span>
+    </div>
+
+    <h1>🚀 Lernix11</h1>
+
+    <p class="tagline">
+        Your Class 11 PCM Learning Space
+    </p>
+
+    <p class="sub">
+        Learn concepts • Practice questions • Improve every day
+    </p>
+
+</div>
+
+
+<!-- PCM BADGE -->
+
+<div class="pcm-badge">
+
+    <strong>PCM</strong>
+
+    <p>
+        Physics • Chemistry • Mathematics
+    </p>
+
+</div>
+
+
+<!-- PHYSICS -->
+
+<div class="subject">
+
+    <div class="icon">
+        ⚡📐🔭
+    </div>
+
+    <h2>Physics</h2>
+
+    <h3>Class 11 Physics</h3>
+
+    <p>
+        Motion • Laws of Motion • Work Energy •
+        Gravitation • Thermodynamics • Waves
+    </p>
+
+    <a class="open-btn" href="physics.html">
+        🚀 Open Physics
+    </a>
+
+</div>
+
+
+<!-- CHEMISTRY -->
+
+<div class="subject">
+
+    <div class="icon">
+        🧪⚛️🔬
+    </div>
+
+    <h2>Chemistry</h2>
+
+    <h3>Class 11 Chemistry</h3>
+
+    <p>
+        Physical Chemistry • Inorganic Chemistry •
+        Organic Chemistry • Important Concepts
+    </p>
+
+    <a class="open-btn" href="chemistry.html">
+        🚀 Open Chemistry
+    </a>
+
+</div>
+
+
+<!-- MATHEMATICS -->
+
+<div class="subject">
+
+    <div class="icon">
+        📐🧮🔢
+    </div>
+
+    <h2>Mathematics</h2>
+
+    <h3>Class 11 Mathematics</h3>
+
+    <p>
+        Sets • Algebra • Trigonometry • Coordinate Geometry •
+        Statistics • Sequences and Series
+    </p>
+
+    <a class="open-btn" href="maths.html">
+        🚀 Open Mathematics
+    </a>
+
+</div>
+
+
+<!-- ABOUT -->
+
+<div class="about">
+
+    <h2 class="about-title">
+        🚀 About Lernix11
+    </h2>
+
+
+    <div class="info">
+        📚 <b>Platform</b><br>
+        Class 11 PCM Learning App
+    </div>
+
+
+    <div class="info">
+        🎓 <b>For</b><br>
+        Class 11 PCM Students
+    </div>
+
+
+    <div class="info">
+        📖 <b>Subjects</b><br>
+        Physics • Chemistry • Mathematics
+    </div>
+
+
+    <div class="info">
+        📅 <b>Created In</b><br>
+        2026
+    </div>
+
+
+    <div class="info">
+        ⭐ <b>Version</b><br>
+        1.0
+    </div>
+
+
+    <!-- CREATOR -->
+
+    <div class="creator">
+
+        <div class="creator-name">
+            👨‍💻 Shivam Sah
+        </div>
+
+        <p>
+            Creator & Developer of Lernix11
+        </p>
+
+        <p>
+            Learn • Practice • Improve
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<div class="footer">
+
+    <strong>🚀 Lernix11</strong>
+
+    <br>
+
+    Made with ❤️ for PCM Students
+
+    <br>
+
+    © 2026 Lernix11 • Version 1.0
+
+</div>
+
+
+</body>
+
+  </html>
