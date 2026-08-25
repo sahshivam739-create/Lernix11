@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System of Particles and Rotational Motion - Lernix11</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef3ff;
+            color: #172033;
+        }
+
+        .header {
+            padding: 28px 15px;
+            text-align: center;
+            background: #172554;
+            color: white;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+        }
+
+        .topic {
+            margin: 20px 15px;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .visual {
+            height: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e3eaff;
+            border-radius: 18px;
+            font-size: 65px;
+            margin: 15px 0;
+            box-shadow: inset 0 -8px 0 rgba(0,0,0,0.08);
+        }
+
+        .definition {
+            background: #f5f7ff;
+            padding: 15px;
+            border-radius: 12px;
+        }
+
+        .important {
+            background: #eef4ff;
+            padding: 15px;
+            border-left: 5px solid #2563eb;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .formula {
+            background: #fff7ed;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .proof {
+            background: #fff7ed;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+
+        .questions {
+            margin: 20px 15px;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>🔄 System of Particles & Rotational Motion</h1>
+    <p>Class 11 Physics • Lernix11</p>
+</div>
+
+
+<div class="topic">
+    <h2>1. Centre of Mass</h2>
+
+    <div class="visual">⚫ ⚫ ⚫ 🎯</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            The centre of mass is the point where the entire mass of
+            a system may be considered to be concentrated for describing
+            its translational motion.
+        </p>
+    </div>
+
+    <div class="formula">
+        x<sub>cm</sub> = (m₁x₁ + m₂x₂) / (m₁ + m₂)
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            For a uniform symmetrical body, the centre of mass lies
+            at its geometrical centre.
+        </p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>2. Motion of Centre of Mass</h2>
+
+    <div class="visual">🎯 ➡️ 🚀</div>
+
+    <div class="definition">
+        <h3>📖 Concept</h3>
+        <p>
+            The motion of the centre of mass of a system is determined
+            by the net external force acting on the system.
+        </p>
+    </div>
+
+    <div class="formula">
+        F<sub>ext</sub> = M a<sub>cm</sub>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>3. Linear Momentum of a System</h2>
+
+    <div class="visual">🏎️ 💨</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Linear momentum is the product of mass and velocity.
+        </p>
+    </div>
+
+    <div class="formula">
+        p = mv
+    </div>
+
+    <div class="important">
+        <b>⭐ Conservation:</b>
+        <p>
+            If the net external force on a system is zero,
+            its total linear momentum remains constant.
+        </p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>4. Torque</h2>
+
+    <div class="visual">🔧 🔄 ⚙️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Torque is the turning effect of a force about a point or axis.
+        </p>
+    </div>
+
+    <div class="formula">
+        τ = rF sinθ
+    </div>
+
+    <div class="important">
+        <b>⭐ SI Unit:</b>
+        <p>Newton metre (N m)</p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>5. Angular Momentum</h2>
+
+    <div class="visual">🌀 ⚙️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Angular momentum is the rotational analogue of linear
+            momentum.
+        </p>
+    </div>
+
+    <div class="formula">
+        L = r × p
+        <br><br>
+        For a rigid body: L = Iω
+    </div>
+
+    <div class="important">
+        <b>⭐ Conservation:</b>
+        <p>
+            When external torque is zero, angular momentum remains constant.
+        </p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>6. Moment of Inertia</h2>
+
+    <div class="visual">⚙️ 🌀 ⚙️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Moment of inertia is the rotational analogue of mass and
+            measures the resistance of a body to angular acceleration.
+        </p>
+    </div>
+
+    <div class="formula">
+        I = Σmr²
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            Moment of inertia depends on the mass distribution of the
+            body about the chosen axis.
+        </p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>7. Radius of Gyration</h2>
+
+    <div class="visual">⭕ 📏</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Radius of gyration is the distance from the axis at which
+            the entire mass of a body could be concentrated without
+            changing its moment of inertia.
+        </p>
+    </div>
+
+    <div class="formula">
+        I = Mk²
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>8. Parallel Axis Theorem</h2>
+
+    <div class="visual">⚙️ ➡️ 📍</div>
+
+    <div class="definition">
+        <h3>📖 Statement</h3>
+        <p>
+            The moment of inertia about any axis parallel to an axis
+            through the centre of mass is related by:
+        </p>
+    </div>
+
+    <div class="formula">
+        I = I<sub>cm</sub> + Md²
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>9. Perpendicular Axis Theorem</h2>
+
+    <div class="visual">⭕ ⬆️ ⬇️</div>
+
+    <div class="definition">
+        <h3>📖 Statement</h3>
+        <p>
+            For a plane lamina, the moment of inertia about an axis
+            perpendicular to its plane equals the sum of moments of
+            inertia about two mutually perpendicular axes in its plane.
+        </p>
+    </div>
+
+    <div class="formula">
+        I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>10. Rotational Kinematics</h2>
+
+    <div class="visual">🔄 ⏱️ 🌀</div>
+
+    <div class="definition">
+        <h3>📖 Important Quantities</h3>
+        <p>
+            Angular displacement, angular velocity and angular
+            acceleration describe rotational motion.
+        </p>
+    </div>
+
+    <div class="formula">
+        ω = ω₀ + αt
+        <br><br>
+        θ = ω₀t + ½αt²
+        <br><br>
+        ω² = ω₀² + 2αθ
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>11. Rotational Dynamics</h2>
+
+    <div class="visual">⚙️ 💪 🔄</div>
+
+    <div class="definition">
+        <h3>📖 Concept</h3>
+        <p>
+            Rotational dynamics studies the effect of torque on
+            rotational motion.
+        </p>
+    </div>
+
+    <div class="formula">
+        τ = Iα
+    </div>
+
+    <div class="proof">
+        <h3>⭐ Important Relation</h3>
+        <p>
+            Torque plays a role in rotational motion similar to the
+            role of force in translational motion.
+        </p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>12. Rolling Motion</h2>
+
+    <div class="visual">🛞 ➡️ 🛣️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Rolling motion is a combination of translational and
+            rotational motion.
+        </p>
+    </div>
+
+    <div class="formula">
+        v = Rω
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            In pure rolling without slipping, the point of contact
+            is instantaneously at rest relative to the surface.
+        </p>
+    </div>
+</div>
+
+
+<div class="topic">
+    <h2>⭐ Quick Revision</h2>
+
+    <div class="visual">🧠 ⚡</div>
+
+    <div class="important">
+        <b>Remember:</b>
+        <p>
+            I = Σmr²<br><br>
+            τ = rF sinθ<br><br>
+            L = Iω<br><br>
+            τ = Iα<br><br>
+            I = I<sub>cm</sub> + Md²<br><br>
+            I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub><br><br>
+            v = Rω
+        </p>
+    </div>
+</div>
+
+
+<div class="questions">
+
+    <h2>📄 Most Important Questions</h2>
+
+    <p><b>1.</b> Define centre of mass. Find the centre of mass of two particles on a straight line.</p>
+
+    <p><b>2.</b> Explain the motion of the centre of mass of a system.</p>
+
+    <p><b>3.</b> State the law of conservation of linear momentum.</p>
+
+    <p><b>4.</b> Define torque and derive its expression.</p>
+
+    <p><b>5.</b> Define angular momentum and explain its conservation.</p>
+
+    <p><b>6.</b> Define moment of inertia and explain the factors on which it depends.</p>
+
+    <p><b>7.</b> Define radius of gyration and derive I = Mk².</p>
+
+    <p><b>8.</b> ⭐ State and prove the parallel axis theorem.</p>
+
+    <p><b>9.</b> ⭐ State and prove the perpendicular axis theorem.</p>
+
+    <p><b>10.</b> Explain the relation between torque and angular acceleration.</p>
+
+    <p><b>11.</b> Derive the equations of rotational motion.</p>
+
+    <p><b>12.</b> Explain pure rolling motion and derive v = Rω.</p>
+
+    <p><b>13.</b> Solve one suitable numerical based on centre of mass.</p>
+
+    <p><b>14.</b> Solve one suitable numerical based on moment of inertia.</p>
+
+    <p><b>15.</b> Solve one suitable numerical based on rolling motion.</p>
+
+</div>
+
+</body>
+</html>

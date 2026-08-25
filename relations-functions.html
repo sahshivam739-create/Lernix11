@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Chapter 2 - Relations and Functions - Lernix11</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#eef3ff;
+color:#172033;
+}
+
+.header{
+padding:28px 15px;
+text-align:center;
+background:#172554;
+color:white;
+}
+
+.header h1{
+margin:0;
+font-size:28px;
+}
+
+.header p{
+margin:8px 0 0;
+}
+
+.topic{
+margin:20px 15px;
+padding:20px;
+background:white;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.visual{
+height:140px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#e3eaff;
+border-radius:18px;
+font-size:52px;
+margin:15px 0;
+}
+
+.definition{
+background:#f5f7ff;
+padding:15px;
+border-radius:12px;
+}
+
+.formula{
+background:#fff7ed;
+padding:15px;
+border-radius:12px;
+margin-top:15px;
+font-weight:bold;
+}
+
+.example{
+margin-top:18px;
+padding:15px;
+background:#f8fafc;
+border-left:5px solid #2563eb;
+border-radius:10px;
+}
+
+.solution{
+margin-top:10px;
+padding:15px;
+background:#ecfdf5;
+border-left:5px solid #16a34a;
+border-radius:10px;
+}
+
+.answer{
+font-weight:bold;
+}
+
+.mixed{
+margin:20px 15px;
+padding:20px;
+background:white;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="header">
+
+<h1>📚 Chapter 2 - Relations and Functions</h1>
+
+<p>Class 11 Mathematics • Lernix11</p>
+
+</div>
+
+
+<!-- TOPIC 1 -->
+
+<div class="topic">
+
+<h2>1. Cartesian Product of Sets</h2>
+
+<div class="visual">A × B 🔗</div>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+The Cartesian product of two sets A and B is the set of all
+ordered pairs (a,b), where a ∈ A and b ∈ B.
+</p>
+
+</div>
+
+<div class="formula">
+
+A × B = {(a,b) : a ∈ A, b ∈ B}
+
+<br><br>
+
+If n(A)=m and n(B)=n, then
+<br>
+n(A × B)=mn
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+If A = {1,2} and B = {3,4}, find A × B.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Pair each element of A with every element of B.
+</p>
+
+<p>
+A × B = {(1,3),(1,4),(2,3),(2,4)}
+</p>
+
+<p class="answer">
+Answer: {(1,3),(1,4),(2,3),(2,4)}
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If n(A)=3 and n(B)=4, find n(A × B).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+n(A × B) = n(A) × n(B)
+</p>
+
+<p>
+= 3 × 4
+</p>
+
+<p>
+= 12
+</p>
+
+<p class="answer">
+Answer: 12
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 2 -->
+
+<div class="topic">
+
+<h2>2. Relations</h2>
+
+<div class="visual">A ↔ B</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A relation from set A to set B is any subset of A × B.
+</p>
+
+</div>
+
+<div class="formula">
+
+R ⊆ A × B
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A = {1,2} and B = {3,4}. Write one possible relation from A to B.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+A × B = {(1,3),(1,4),(2,3),(2,4)}
+</p>
+
+<p>
+Any subset of A × B can be a relation.
+</p>
+
+<p class="answer">
+Example: R = {(1,3),(2,4)}
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If n(A × B)=12, what is the maximum number of ordered pairs
+that a relation from A to B can contain?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+A relation is a subset of A × B.
+</p>
+
+<p>
+Therefore maximum number of ordered pairs = n(A × B).
+</p>
+
+<p class="answer">
+Answer: 12
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 3 -->
+
+<div class="topic">
+
+<h2>3. Domain, Codomain and Range</h2>
+
+<div class="visual">A → B</div>
+
+<div class="definition">
+
+<h3>📖 Important Terms</h3>
+
+<p>
+Domain = set of first components.
+</p>
+
+<p>
+Codomain = target set.
+</p>
+
+<p>
+Range = set of actual second components obtained.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+R = {(1,2),(2,4),(3,6)}.
+Find the domain and range.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+First components = {1,2,3}
+</p>
+
+<p>
+Second components = {2,4,6}
+</p>
+
+<p class="answer">
+Domain = {1,2,3}
+<br>
+Range = {2,4,6}
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If R = {(2,5),(3,5),(4,6)}, find the range.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+The second components are 5,5 and 6.
+</p>
+
+<p>
+Repeated elements are written only once.
+</p>
+
+<p class="answer">
+Range = {5,6}
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 4 -->
+
+<div class="topic">
+
+<h2>4. Functions</h2>
+
+<div class="visual">A → B → C</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A function from A to B assigns exactly one element of B to each
+element of A.
+</p>
+
+</div>
+
+<div class="formula">
+
+f : A → B
+
+<br><br>
+
+Every element of A must have exactly one image in B.
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Is {(1,2),(2,3),(3,4)} a function from {1,2,3} to {2,3,4}?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Each element of the domain has exactly one image.
+</p>
+
+<p class="answer">
+Answer: Yes, it is a function.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Is {(1,2),(1,3),(2,4)} a function?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+The element 1 has two images, 2 and 3.
+</p>
+
+<p>
+A function cannot assign two different images to one input.
+</p>
+
+<p class="answer">
+Answer: No, it is not a function.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 5 -->
+
+<div class="topic">
+
+<h2>5. Real Functions</h2>
+
+<div class="visual">ℝ → ℝ</div>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+A real function is a function whose domain and range are subsets
+of the real numbers.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find f(3) if f(x)=2x+5.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(3) = 2(3)+5
+</p>
+
+<p>
+= 6+5
+</p>
+
+<p class="answer">
+f(3)=11
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find f(-2) if f(x)=x²+3x+1.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(-2)=(-2)²+3(-2)+1
+</p>
+
+<p>
+=4-6+1
+</p>
+
+<p class="answer">
+f(-2)=-1
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 6 -->
+
+<div class="topic">
+
+<h2>6. Algebra of Functions</h2>
+
+<div class="visual">f + g • f − g</div>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+For functions f and g, we can define their sum, difference,
+product and quotient wherever these operations are defined.
+</p>
+
+</div>
+
+<div class="formula">
+
+(f+g)(x)=f(x)+g(x)
+
+<br><br>
+
+(f−g)(x)=f(x)−g(x)
+
+<br><br>
+
+(fg)(x)=f(x)g(x)
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+If f(x)=x+2 and g(x)=x−1, find (f+g)(x).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+(f+g)(x) = f(x)+g(x)
+</p>
+
+<p>
+= (x+2)+(x−1)
+</p>
+
+<p>
+= 2x+1
+</p>
+
+<p class="answer">
+Answer: 2x+1
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If f(x)=2x and g(x)=x+3, find (fg)(2).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(2)=4
+</p>
+
+<p>
+g(2)=5
+</p>
+
+<p>
+(fg)(2)=4×5
+</p>
+
+<p class="answer">
+Answer: 20
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 7 -->
+
+<div class="topic">
+
+<h2>7. One-One Function</h2>
+
+<div class="visual">1 → A<br>2 → B<br>3 → C</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A function is one-one if different elements of the domain have
+different images.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Check whether f(x)=2x+1 is one-one on R.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Let f(a)=f(b).
+</p>
+
+<p>
+2a+1=2b+1
+</p>
+
+<p>
+2a=2b
+</p>
+
+<p>
+a=b
+</p>
+
+<p class="answer">
+Therefore f(x)=2x+1 is one-one.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Is f(x)=x² one-one on R?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(1)=1 and f(-1)=1.
+</p>
+
+<p>
+But 1 ≠ -1.
+</p>
+
+<p class="answer">
+Therefore f(x)=x² is not one-one on R.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 8 -->
+
+<div class="topic">
+
+<h2>8. Many-One Function</h2>
+
+<div class="visual">1 ↘<br>2 → A<br>3 ↗</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A function is many-one if two or more different elements of the
+domain can have the same image.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Check whether f(x)=x² is many-one on R.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(1)=1 and f(-1)=1.
+</p>
+
+<p>
+Two different inputs have the same output.
+</p>
+
+<p class="answer">
+Answer: It is many-one.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Is f(x)=x³ many-one on R?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+If a³=b³, then a=b.
+</p>
+
+<p>
+Thus different inputs cannot have the same output.
+</p>
+
+<p class="answer">
+Answer: No, it is one-one.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 9 -->
+
+<div class="topic">
+
+<h2>9. Into Function</h2>
+
+<div class="visual">A → B<br>⚪ ⚪ ⚪</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A function is into if at least one element of the codomain is not
+an image of any element of the domain.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A={1,2}, B={a,b,c} and f={(1,a),(2,b)}.
+Is f into?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Element c of B has no pre-image.
+</p>
+
+<p class="answer">
+Answer: Yes, f is into.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If every element of codomain has a pre-image, can the function
+be into?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+No. If every codomain element has a pre-image, the function is onto.
+</p>
+
+<p class="answer">
+Answer: No.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 10 -->
+
+<div class="topic">
+
+<h2>10. Onto Function</h2>
+
+<div class="visual">A → B<br>⚪ ← ⚪</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A function is onto if every element of the codomain is the image
+of at least one element of the domain.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+f:R→R defined by f(x)=x+2. Is it onto?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Let y be any real number.
+</p>
+
+<p>
+y=x+2
+</p>
+
+<p>
+x=y−2
+</p>
+
+<p>
+Since y−2 is real, every real y has a pre-image.
+</p>
+
+<p class="answer">
+Therefore f is onto.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Is f:R→R defined by f(x)=x² onto?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+The range of x² is [0,∞).
+</p>
+
+<p>
+Negative real numbers are not obtained.
+</p>
+
+<p class="answer">
+Therefore f is not onto R.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 11 -->
+
+<div class="topic">
+
+<h2>11. Into and Onto: Quick Difference</h2>
+
+<div class="visual">↔️ 🔍</div>
+
+<div class="formula">
+
+Into → Some codomain elements have no pre-image.
+
+<br><br>
+
+Onto → Every codomain element has at least one pre-image.
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A function has range equal to its codomain. Is it onto?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+If range = codomain, every codomain element has a pre-image.
+</p>
+
+<p class="answer">
+Answer: Yes, it is onto.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A function has range smaller than its codomain. Is it onto?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Some codomain elements are not images.
+</p>
+
+<p class="answer">
+Answer: No, it is into.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 12 -->
+
+<div class="topic">
+
+<h2>12. Composition of Functions</h2>
+
+<div class="visual">f → g → h</div>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+If f and g are functions, their composition is written as
+(g∘f)(x)=g(f(x)).
+</p>
+
+</div>
+
+<div class="formula">
+
+(g∘f)(x)=g(f(x))
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+If f(x)=x+1 and g(x)=2x, find (g∘f)(x).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+(g∘f)(x)=g(f(x))
+</p>
+
+<p>
+=g(x+1)
+</p>
+
+<p>
+=2(x+1)
+</p>
+
+<p class="answer">
+=2x+2
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If f(x)=x² and g(x)=x+3, find (g∘f)(2).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(2)=4
+</p>
+
+<p>
+g(4)=7
+</p>
+
+<p class="answer">
+(g∘f)(2)=7
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 13 -->
+
+<div class="topic">
+
+<h2>13. Identity Function</h2>
+
+<div class="visual">x → x</div>
+
+<div class="definition">
+
+<h3>📖 Definition</h3>
+
+<p>
+A function which maps every element to itself is called the identity
+function.
+</p>
+
+</div>
+
+<div class="formula">
+
+I(x)=x
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find I(7) for the identity function I(x)=x.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+I(7)=7
+</p>
+
+<p class="answer">
+Answer: 7
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find I(-5).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+I(-5)=-5
+</p>
+
+<p class="answer">
+Answer: -5
+</p>
+
+</div>
+
+</div>
+
+
+<!-- MIXED -->
+
+<div class="mixed">
+
+<h2>🔥 Mixed Questions</h2>
+
+<p>
+Questions based on different topics of Relations and Functions.
+</p>
+
+
+<div class="example">
+
+<h3>✏️ Mixed Ex 1</h3>
+
+<p>
+A={1,2,3} and B={2,4,6}.
+Define f:A→B by f(x)=2x.
+Find the range and state whether f is one-one and onto.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(1)=2
+<br>
+f(2)=4
+<br>
+f(3)=6
+</p>
+
+<p>
+Range = {2,4,6}
+</p>
+
+<p>
+All outputs are different, so f is one-one.
+</p>
+
+<p>
+Range = B, so f is onto.
+</p>
+
+<p class="answer">
+Answer: Range={2,4,6}; f is one-one and onto.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Mixed Ex 2</h3>
+
+<p>
+If f(x)=2x+1 and g(x)=x², find (g∘f)(2).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(2)=2(2)+1=5
+</p>
+
+<p>
+g(5)=5²=25
+</p>
+
+<p class="answer">
+Answer: 25
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Mixed Ex 3</h3>
+
+<p>
+Let A={1,2,3,4} and B={1,4,9,16}.
+Is f:A→B defined by f(x)=x² one-one and onto?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+f(1)=1
+<br>
+f(2)=4
+<br>
+f(3)=9
+<br>
+f(4)=16
+</p>
+
+<p>
+All outputs are different.
+</p>
+
+<p>
+Range = {1,4,9,16}=B.
+</p>
+
+<p class="answer">
+Answer: f is both one-one and onto.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Mixed Ex 4</h3>
+
+<p>
+If A has 3 elements and B has 2 elements, find the number of
+elements in A×B and the maximum possible number of ordered pairs
+in a relation from A to B.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+n(A×B)=n(A)×n(B)
+</p>
+
+<p>
+=3×2
+</p>
+
+<p>
+=6
+</p>
+
+<p>
+A relation is a subset of A×B.
+</p>
+
+<p class="answer">
+Answer: 6 elements; maximum 6 ordered pairs.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Mixed Ex 5 — 🔴 JEE Level</h3>
+
+<p>
+Let f:R→R be defined by
+f(x)=x²+2x+3.
+Determine whether f is one-one or not.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Complete the square:
+</p>
+
+<p>
+f(x)=x²+2x+3
+</p>
+
+<p>
+=(x+1)²+2
+</p>
+
+<p>
+Now:
+</p>
+
+<p>
+f(0)=3
+</p>
+
+<p>
+f(-2)=4-4+3=3
+</p>
+
+<p>
+But 0 ≠ -2.
+</p>
+
+<p>
+Therefore two different inputs have the same output.
+</p>
+
+<p class="answer">
+Answer: f is not one-one on R.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Mixed Ex 6 — 🔴 JEE Level</h3>
+
+<p>
+If f(x)=3x−2 and g(x)=(x+2)/3,
+find (f∘g)(x) and (g∘f)(x).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+(f∘g)(x)=f(g(x))
+</p>
+
+<p>
+=3[(x+2)/3]−2
+</p>
+
+<p>
+=x+2−2
+</p>
+
+<p>
+=x
+</p>
+
+<p>
+Now:
+</p>
+
+<p>
+(g∘f)(x)=g(f(x))
+</p>
+
+<p>
+=[(3x−2)+2]/3
+</p>
+
+<p>
+=3x/3
+</p>
+
+<p>
+=x
+</p>
+
+<p class="answer">
+Answer:
+<br>
+(f∘g)(x)=x
+<br>
+(g∘f)(x)=x
+</p>
+
+</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Chapter 8 - Binomial Theorem - Lernix11</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px 15px;
+    background:#111;
+}
+
+.header h1{
+    font-family:cursive;
+    font-size:30px;
+    margin:0;
+}
+
+.header p{
+    color:#bbb;
+}
+
+.topic,
+.mixed{
+    margin:20px 15px;
+    padding:22px;
+    background:linear-gradient(145deg,#111,#252525);
+    border:1px solid #444;
+    border-radius:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.visual{
+    min-height:100px;
+    background:#1b1b1b;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;
+    text-align:center;
+    margin-bottom:18px;
+}
+
+.topic h2,
+.mixed h2{
+    font-family:cursive;
+    font-size:26px;
+}
+
+.definition{
+    background:#191919;
+    padding:15px;
+    border-radius:14px;
+    color:#ddd;
+    line-height:1.7;
+}
+
+.formula{
+    background:#101010;
+    border-left:4px solid white;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+    line-height:1.9;
+    font-weight:bold;
+}
+
+.example{
+    background:#181818;
+    padding:15px;
+    margin-top:18px;
+    border-radius:14px;
+}
+
+.solution{
+    background:#102217;
+    border-left:4px solid #55d98b;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+    line-height:1.7;
+}
+
+.answer{
+    font-weight:bold;
+    color:#8ff0b5;
+}
+
+.important{
+    background:#211b0d;
+    padding:15px;
+    border-radius:14px;
+    margin-top:15px;
+    line-height:1.7;
+}
+
+.mixed-question{
+    background:#181818;
+    padding:16px;
+    margin:14px 0;
+    border-radius:14px;
+    line-height:1.7;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    color:#777;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>📚 Chapter 8</h1>
+
+<p>Binomial Theorem</p>
+
+<p>Class 11 Mathematics • Lernix11</p>
+
+</div>
+
+
+<!-- TOPIC 1 -->
+
+<div class="topic">
+
+<div class="visual">🧮 ➕ 🔢</div>
+
+<h2>1. Introduction to Binomial Theorem</h2>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+A binomial is an algebraic expression containing two terms.
+</p>
+
+<p>
+Examples:
+</p>
+
+<p>
+x + y, a + b, 2x + 3
+</p>
+
+<p>
+The Binomial Theorem gives a systematic way to expand
+positive integral powers of a binomial.
+</p>
+
+</div>
+
+
+<div class="formula">
+
+(a+b)ⁿ
+
+=
+
+Σ ⁿCᵣ aⁿ⁻ʳ bʳ
+
+for r = 0 to n
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Expand:
+</p>
+
+<p>
+(x + 2)²
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+(x+2)²
+</p>
+
+<p>
+= x² + 2(x)(2) + 2²
+</p>
+
+<p>
+= x² + 4x + 4
+</p>
+
+<p class="answer">
+Answer: x² + 4x + 4
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Expand:
+</p>
+
+<p>
+(a + b)³
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+(a+b)³
+</p>
+
+<p>
+= a³ + 3a²b + 3ab² + b³
+</p>
+
+<p class="answer">
+Answer: a³ + 3a²b + 3ab² + b³
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 2 -->
+
+<div class="topic">
+
+<div class="visual">🔢 🧩 📐</div>
+
+<h2>2. General Term</h2>
+
+<div class="definition">
+
+<p>
+The general term in the expansion of (a+b)ⁿ is:
+</p>
+
+</div>
+
+<div class="formula">
+
+Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳ bʳ
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the 3rd term of:
+</p>
+
+<p>
+(x + 2)⁵
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+For the 3rd term:
+</p>
+
+<p>
+r + 1 = 3
+</p>
+
+<p>
+r = 2
+</p>
+
+<p>
+T₃ = ⁵C₂ x³(2²)
+</p>
+
+<p>
+= 10 × x³ × 4
+</p>
+
+<p class="answer">
+= 40x³
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2 — 🔴 Hard</h3>
+
+<p>
+Find the 4th term of:
+</p>
+
+<p>
+(2x + 3)⁶
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+For the 4th term:
+</p>
+
+<p>
+r = 3
+</p>
+
+<p>
+T₄ = ⁶C₃ (2x)³(3)³
+</p>
+
+<p>
+= 20 × 8x³ × 27
+</p>
+
+<p class="answer">
+= 4320x³
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 3 -->
+
+<div class="topic">
+
+<div class="visual">🔢 ⭐ 🧮</div>
+
+<h2>3. Binomial Coefficients</h2>
+
+<div class="definition">
+
+<p>
+The coefficients in a binomial expansion are called
+binomial coefficients.
+</p>
+
+</div>
+
+<div class="formula">
+
+ⁿCᵣ = n!/[r!(n−r)!]
+
+<br><br>
+
+ⁿC₀ = ⁿCₙ = 1
+
+<br><br>
+
+ⁿCᵣ = ⁿCₙ₋ᵣ
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find:
+</p>
+
+<p>
+⁶C₂
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+⁶C₂ = 6!/(2!4!)
+</p>
+
+<p>
+= (6×5)/(2×1)
+</p>
+
+<p class="answer">
+= 15
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find:
+</p>
+
+<p>
+⁸C₆
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Using:
+</p>
+
+<p>
+⁸C₆ = ⁸C₂
+</p>
+
+<p>
+= 8×7/2
+</p>
+
+<p class="answer">
+= 28
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 4 -->
+
+<div class="topic">
+
+<div class="visual">🔍 🧠 📌</div>
+
+<h2>4. Middle Term</h2>
+
+<div class="definition">
+
+<p>
+The number of terms in the expansion of (a+b)ⁿ is n+1.
+</p>
+
+<p>
+If n is even, there is one middle term.
+</p>
+
+<p>
+If n is odd, there are two middle terms.
+</p>
+
+</div>
+
+
+<div class="formula">
+
+If n is even:
+
+Middle term = (n/2 + 1)th term
+
+<br><br>
+
+If n is odd:
+
+Middle terms = ((n+1)/2)th and ((n+3)/2)th terms
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the middle term of:
+</p>
+
+<p>
+(x + 1)⁶
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+n = 6
+</p>
+
+<p>
+Number of terms = 7
+</p>
+
+<p>
+Middle term = 4th term
+</p>
+
+<p>
+T₄ = ⁶C₃ x³
+</p>
+
+<p>
+= 20x³
+</p>
+
+<p class="answer">
+Middle term = 20x³
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2 — 🔴 Hard</h3>
+
+<p>
+Find the middle terms of:
+</p>
+
+<p>
+(x + 2)⁷
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+n = 7
+</p>
+
+<p>
+There are 8 terms.
+</p>
+
+<p>
+Middle terms are 4th and 5th.
+</p>
+
+<p>
+T₄ = ⁷C₃ x⁴(2³)
+</p>
+
+<p>
+= 35 × 8x⁴
+</p>
+
+<p>
+= 280x⁴
+</p>
+
+<p>
+T₅ = ⁷C₄ x³(2⁴)
+</p>
+
+<p>
+= 35 × 16x³
+</p>
+
+<p class="answer">
+= 560x³
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 5 -->
+
+<div class="topic">
+
+<div class="visual">🔢 🎯 🧠</div>
+
+<h2>5. Particular Term</h2>
+
+<div class="definition">
+
+<p>
+The general term formula can be used to find any particular
+term of a binomial expansion.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the 5th term of:
+</p>
+
+<p>
+(2x + 1)⁶
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+For 5th term:
+</p>
+
+<p>
+r = 4
+</p>
+
+<p>
+T₅ = ⁶C₄ (2x)²
+</p>
+
+<p>
+= 15 × 4x²
+</p>
+
+<p class="answer">
+= 60x²
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2 — 🔴 Hard</h3>
+
+<p>
+Find the term independent of x in:
+</p>
+
+<p>
+(x² + 1/x)⁶
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+General term:
+</p>
+
+<p>
+Tᵣ₊₁ = ⁶Cᵣ (x²)⁶⁻ʳ (1/x)ʳ
+</p>
+
+<p>
+Power of x:
+</p>
+
+<p>
+2(6−r) − r
+</p>
+
+<p>
+= 12 − 3r
+</p>
+
+<p>
+For independent term:
+</p>
+
+<p>
+12 − 3r = 0
+</p>
+
+<p>
+r = 4
+</p>
+
+<p>
+Term = ⁶C₄
+</p>
+
+<p class="answer">
+= 15
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 6 -->
+
+<div class="topic">
+
+<div class="visual">➕ ➖ 🔢</div>
+
+<h2>6. Important Binomial Identities</h2>
+
+<div class="formula">
+
+ⁿCᵣ = ⁿCₙ₋ᵣ
+
+<br><br>
+
+ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ
+
+<br><br>
+
+Σ ⁿCᵣ = 2ⁿ
+
+<br><br>
+
+Σ (−1)ʳ ⁿCᵣ = 0
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the sum:
+</p>
+
+<p>
+⁵C₀ + ⁵C₁ + ⁵C₂ + ⁵C₃ + ⁵C₄ + ⁵C₅
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Sum of coefficients = 2⁵
+</p>
+
+<p class="answer">
+= 32
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find:
+</p>
+
+<p>
+⁷C₀ − ⁷C₁ + ⁷C₂ − ⁷C₃ + ... − ⁷C₇
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+This is:
+</p>
+
+<p>
+(1−1)⁷
+</p>
+
+<p>
+= 0⁷
+</p>
+
+<p class="answer">
+= 0
+</p>
+
+</div>
+
+</div>
+
+
+<!-- IMPORTANT -->
+
+<div class="topic">
+
+<div class="visual">⭐ 📌 🧠</div>
+
+<h2>⭐ Important Formula Revision</h2>
+
+<div class="important">
+
+<p><b>1.</b> (a+b)ⁿ = Σ ⁿCᵣ aⁿ⁻ʳbʳ</p>
+
+<p><b>2.</b> Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳbʳ</p>
+
+<p><b>3.</b> Number of terms = n+1</p>
+
+<p><b>4.</b> ⁿCᵣ = ⁿCₙ₋ᵣ</p>
+
+<p><b>5.</b> ⁿC₀ = ⁿCₙ = 1</p>
+
+<p><b>6.</b> Sum of coefficients = 2ⁿ</p>
+
+<p><b>7.</b> Alternating sum of coefficients = 0</p>
+
+</div>
+
+</div>
+
+
+<!-- MIXED QUESTIONS -->
+
+<div class="mixed">
+
+<div class="visual">🔥 📝 🧠</div>
+
+<h2>🔥 Mixed Questions</h2>
+
+<div class="mixed-question">
+<b>🟢 Q1.</b>
+Expand (x+2)³.
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q2.</b>
+Find the 4th term of (x+3)⁵.
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q3.</b>
+Find ⁸C₃.
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q4.</b>
+Find the middle term of (x+1)⁸.
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q5.</b>
+Find the 5th term of (2x+3)⁷.
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q6.</b>
+Find the coefficient of x³ in (x+2)⁶.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q7.</b>
+Find the term independent of x in (x²+1/x)⁶.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q8.</b>
+Find the coefficient of x⁴ in (2x−1)⁷.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q9.</b>
+Find the sum of all coefficients in the expansion of (2x+3)⁵.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q10.</b>
+Find the middle terms of (2x−3)⁹.
+</div>
+
+</div>
+
+
+<div class="footer">
+
+📚 Lernix11 • Class 11 Mathematics
+
+<br>
+
+Chapter 8 • Binomial Theorem
+
+</div>
+
+
+</body>
+
+</html>

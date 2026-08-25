@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Chapter 7 - Permutations and Combinations - Lernix11</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px 15px;
+    background:#111;
+}
+
+.header h1{
+    font-family:cursive;
+    font-size:30px;
+    margin:0;
+}
+
+.header p{
+    color:#bbb;
+}
+
+.topic,
+.mixed{
+    margin:20px 15px;
+    padding:22px;
+    background:linear-gradient(145deg,#111,#252525);
+    border:1px solid #444;
+    border-radius:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.visual{
+    min-height:100px;
+    background:#1b1b1b;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;
+    text-align:center;
+    margin-bottom:18px;
+}
+
+.topic h2,
+.mixed h2{
+    font-family:cursive;
+    font-size:26px;
+}
+
+.definition{
+    background:#191919;
+    padding:15px;
+    border-radius:14px;
+    color:#ddd;
+    line-height:1.7;
+}
+
+.formula{
+    background:#101010;
+    border-left:4px solid white;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+    line-height:1.9;
+    font-weight:bold;
+}
+
+.example{
+    background:#181818;
+    padding:15px;
+    margin-top:18px;
+    border-radius:14px;
+}
+
+.solution{
+    background:#102217;
+    border-left:4px solid #55d98b;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+    line-height:1.7;
+}
+
+.answer{
+    font-weight:bold;
+    color:#8ff0b5;
+}
+
+.important{
+    background:#211b0d;
+    padding:15px;
+    border-radius:14px;
+    margin-top:15px;
+    line-height:1.7;
+}
+
+.mixed-question{
+    background:#181818;
+    padding:16px;
+    margin:14px 0;
+    border-radius:14px;
+    line-height:1.7;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    color:#777;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>📚 Chapter 7</h1>
+
+<p>Permutations and Combinations</p>
+
+<p>Class 11 Mathematics • Lernix11</p>
+
+</div>
+
+
+<!-- TOPIC 1 -->
+
+<div class="topic">
+
+<div class="visual">🔢 🔄 📊</div>
+
+<h2>1. Fundamental Principle of Counting</h2>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+If one operation can be performed in m ways and another operation
+can be performed in n ways, then both operations together can be
+performed in m × n ways.
+</p>
+
+</div>
+
+<div class="formula">
+
+Total ways = m × n
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A shirt can be selected in 3 ways and a pair of trousers in 4 ways.
+In how many ways can an outfit be selected?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Number of shirt choices = 3
+</p>
+
+<p>
+Number of trouser choices = 4
+</p>
+
+<p>
+Total ways = 3 × 4
+</p>
+
+<p class="answer">
+= 12 ways
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A code consists of one letter followed by one digit.
+If there are 5 possible letters and 6 possible digits,
+find the number of codes.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Letter choices = 5
+</p>
+
+<p>
+Digit choices = 6
+</p>
+
+<p>
+Total codes = 5 × 6
+</p>
+
+<p class="answer">
+= 30
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 2 -->
+
+<div class="topic">
+
+<div class="visual">n! 🔢</div>
+
+<h2>2. Factorial</h2>
+
+<div class="definition">
+
+<p>
+The factorial of a positive integer n is the product of all positive
+integers from 1 to n.
+</p>
+
+</div>
+
+<div class="formula">
+
+n! = n(n−1)(n−2)...3×2×1
+
+<br><br>
+
+0! = 1
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find 5!.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+5! = 5×4×3×2×1
+</p>
+
+<p class="answer">
+= 120
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Simplify:
+</p>
+
+<p>
+8!/6!
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+8!/6!
+</p>
+
+<p>
+= (8×7×6!)/6!
+</p>
+
+<p class="answer">
+= 56
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 3 -->
+
+<div class="topic">
+
+<div class="visual">🔄 🔢 🧮</div>
+
+<h2>3. Permutations</h2>
+
+<div class="definition">
+
+<p>
+Permutation means an arrangement of objects in a particular order.
+</p>
+
+</div>
+
+<div class="formula">
+
+nPᵣ = n!/(n−r)!
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find 5P2.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+5P2 = 5!/(5−2)!
+</p>
+
+<p>
+= 5!/3!
+</p>
+
+<p>
+= 5×4
+</p>
+
+<p class="answer">
+= 20
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+In how many ways can 3 students be arranged from a group of 5 students?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Required ways = 5P3
+</p>
+
+<p>
+= 5!/2!
+</p>
+
+<p>
+= 5×4×3
+</p>
+
+<p class="answer">
+= 60 ways
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 4 -->
+
+<div class="topic">
+
+<div class="visual">🧩 🔢 👥</div>
+
+<h2>4. Combinations</h2>
+
+<div class="definition">
+
+<p>
+Combination means selecting objects where order does not matter.
+</p>
+
+</div>
+
+<div class="formula">
+
+nCᵣ = n!/[r!(n−r)!]
+
+<br><br>
+
+nCᵣ = nCₙ₋ᵣ
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find 5C2.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+5C2 = 5!/[2!3!]
+</p>
+
+<p>
+= (5×4)/(2×1)
+</p>
+
+<p class="answer">
+= 10
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A committee of 3 students is to be selected from 7 students.
+How many committees are possible?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Since order does not matter:
+</p>
+
+<p>
+Required ways = 7C3
+</p>
+
+<p>
+= 7!/(3!4!)
+</p>
+
+<p>
+= (7×6×5)/(3×2×1)
+</p>
+
+<p class="answer">
+= 35 ways
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 5 -->
+
+<div class="topic">
+
+<div class="visual">⚖️ 🔄 🧩</div>
+
+<h2>5. Difference Between Permutation and Combination</h2>
+
+<div class="definition">
+
+<p>
+<b>Permutation:</b> Order matters.
+</p>
+
+<p>
+Example: ABC and BAC are different arrangements.
+</p>
+
+<p>
+<b>Combination:</b> Order does not matter.
+</p>
+
+<p>
+Example: Selecting A, B, C is the same selection as C, B, A.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+How many ways can 2 students be selected from 5 students?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Selection means order does not matter.
+</p>
+
+<p>
+Required ways = 5C2
+</p>
+
+<p>
+= 10
+</p>
+
+<p class="answer">
+Answer: 10 ways
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2 — 🔴 Hard</h3>
+
+<p>
+How many ways can 2 students be chosen and arranged from
+5 students?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Here order matters because students are arranged.
+</p>
+
+<p>
+Required ways = 5P2
+</p>
+
+<p>
+= 5×4
+</p>
+
+<p class="answer">
+= 20 ways
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 6 -->
+
+<div class="topic">
+
+<div class="visual">🔤 🔄 🧠</div>
+
+<h2>6. Permutations of Objects</h2>
+
+<div class="definition">
+
+<p>
+The number of arrangements of n different objects is n!.
+</p>
+
+</div>
+
+<div class="formula">
+
+Number of arrangements of n different objects = n!
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+In how many ways can the letters of the word CAT be arranged?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+There are 3 different letters.
+</p>
+
+<p>
+Number of arrangements = 3!
+</p>
+
+<p>
+= 3×2×1
+</p>
+
+<p class="answer">
+= 6 ways
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2 — 🔴 Hard</h3>
+
+<p>
+In how many ways can the letters of the word MATH be arranged?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+There are 4 different letters.
+</p>
+
+<p>
+Number of arrangements = 4!
+</p>
+
+<p class="answer">
+= 24 ways
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 7 -->
+
+<div class="topic">
+
+<div class="visual">🔢 ➕ 🧮</div>
+
+<h2>7. Important Properties of Combinations</h2>
+
+<div class="formula">
+
+nC0 = 1
+
+<br><br>
+
+nCn = 1
+
+<br><br>
+
+nC1 = n
+
+<br><br>
+
+nCᵣ = nCₙ₋ᵣ
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find 8C7.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Using nCᵣ = nCₙ₋ᵣ:
+</p>
+
+<p>
+8C7 = 8C1
+</p>
+
+<p class="answer">
+= 8
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2 — 🔴 Hard</h3>
+
+<p>
+Find 10C8.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+10C8 = 10C2
+</p>
+
+<p>
+= 10×9/(2×1)
+</p>
+
+<p class="answer">
+= 45
+</p>
+
+</div>
+
+</div>
+
+
+<!-- IMPORTANT -->
+
+<div class="topic">
+
+<div class="visual">⭐ 📌 🧠</div>
+
+<h2>⭐ Important Formula Revision</h2>
+
+<div class="important">
+
+<p><b>1.</b> 0! = 1</p>
+
+<p><b>2.</b> n! = n(n−1)!</p>
+
+<p><b>3.</b> nPᵣ = n!/(n−r)!</p>
+
+<p><b>4.</b> nCᵣ = n!/[r!(n−r)!]</p>
+
+<p><b>5.</b> nCᵣ = nCₙ₋ᵣ</p>
+
+<p><b>6.</b> nPᵣ = r! × nCᵣ</p>
+
+<p><b>7.</b> nC0 = nCn = 1</p>
+
+<p><b>8.</b> nC1 = n</p>
+
+</div>
+
+</div>
+
+
+<!-- MIXED QUESTIONS -->
+
+<div class="mixed">
+
+<div class="visual">🔥 📝 🧠</div>
+
+<h2>🔥 Mixed Questions</h2>
+
+<div class="mixed-question">
+<b>🟢 Q1.</b>
+Find 7!.
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q2.</b>
+Find 8P3.
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q3.</b>
+Find 9C2.
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q4.</b>
+In how many ways can 4 students be arranged from a group of 6 students?
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q5.</b>
+In how many ways can 3 students be selected from 8 students?
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q6.</b>
+Find the number of arrangements of the letters of the word BOOK.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q7.</b>
+How many 3-digit numbers can be formed using the digits
+1, 2, 3, 4 and 5 without repetition?
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q8.</b>
+In how many ways can a committee of 4 be selected from 10 students?
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q9.</b>
+How many ways can 3 boys and 2 girls be selected from
+5 boys and 4 girls?
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q10.</b>
+How many different arrangements can be made using all the letters
+of the word LEVEL?
+</div>
+
+</div>
+
+
+<div class="footer">
+
+📚 Lernix11 • Class 11 Mathematics
+
+<br>
+
+Chapter 7 • Permutations and Combinations
+
+</div>
+
+
+</body>
+
+</html>

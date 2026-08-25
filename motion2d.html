@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Motion in a Plane - Lernix11</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef3ff;
+            color: #172033;
+        }
+
+        .header {
+            padding: 28px 15px;
+            text-align: center;
+            background: #172554;
+            color: white;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+        }
+
+        .topic {
+            margin: 20px 15px;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .topic h2 {
+            margin-top: 0;
+        }
+
+        .visual {
+            height: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e3eaff;
+            border-radius: 18px;
+            font-size: 65px;
+            margin: 15px 0;
+            box-shadow: inset 0 -8px 0 rgba(0,0,0,0.08);
+        }
+
+        .definition {
+            background: #f5f7ff;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 12px;
+        }
+
+        .important {
+            background: #eef4ff;
+            padding: 15px;
+            border-left: 5px solid #2563eb;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .formula {
+            background: #fff7ed;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .questions {
+            margin: 20px 15px;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .proof {
+            background: #fff7ed;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>🎯 Motion in a Plane</h1>
+    <p>Class 11 Physics • Lernix11</p>
+</div>
+
+
+<div class="topic">
+
+    <h2>1. Scalars and Vectors</h2>
+
+    <div class="visual">🔢 ➡️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            A scalar quantity has only magnitude, whereas a vector
+            quantity has both magnitude and direction.
+        </p>
+    </div>
+
+    <div class="important">
+        <b>⭐ Examples:</b>
+        <p>
+            Scalar: distance, speed, mass, time.<br>
+            Vector: displacement, velocity, acceleration, force.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>2. Representation of a Vector</h2>
+
+    <div class="visual">➡️ 📍</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            A vector is represented graphically by a directed line
+            segment. Its length represents magnitude and the arrow
+            shows its direction.
+        </p>
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            Vector notation is commonly written as A⃗ or with an
+            arrow over the symbol.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>3. Addition and Subtraction of Vectors</h2>
+
+    <div class="visual">➡️ ➕ ➡️</div>
+
+    <div class="definition">
+        <h3>📖 Concept</h3>
+        <p>
+            Vectors can be added using the triangle law or
+            parallelogram law of vector addition.
+        </p>
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            Vector addition is different from ordinary scalar addition
+            because direction must also be considered.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>4. Resolution of a Vector</h2>
+
+    <div class="visual">↗️ ↘️ ↙️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Resolution of a vector means expressing a vector as two
+            or more component vectors along chosen directions.
+        </p>
+    </div>
+
+    <div class="formula">
+        Aₓ = A cos θ
+        <br><br>
+        Aᵧ = A sin θ
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            Components are especially useful for solving projectile
+            motion and other two-dimensional motion problems.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>5. Projectile Motion</h2>
+
+    <div class="visual">🚀 🏹 🎯</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Projectile motion is the motion of an object projected
+            into the air under the action of gravity, neglecting
+            air resistance.
+        </p>
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            Horizontal motion has constant velocity, while vertical
+            motion has constant acceleration due to gravity.
+        </p>
+    </div>
+
+    <div class="formula">
+        T = 2u sinθ / g
+        <br><br>
+        H = u² sin²θ / 2g
+        <br><br>
+        R = u² sin2θ / g
+    </div>
+
+    <div class="proof">
+        <h3>⭐ Most Important Derivation</h3>
+        <p>
+            Prove that the trajectory of a projectile is a parabola.
+        </p>
+
+        <p>
+            The horizontal displacement is:
+            x = u cosθ × t
+        </p>
+
+        <p>
+            The vertical displacement is:
+            y = u sinθ × t − ½gt²
+        </p>
+
+        <p>
+            Eliminating t gives an equation of the form:
+            y = Ax − Bx²
+        </p>
+
+        <p>
+            Since the equation is quadratic in x, the trajectory
+            of the projectile is a parabola.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>6. Motion in a Horizontal Plane</h2>
+
+    <div class="visual">🛩️ ➡️ 🌍</div>
+
+    <div class="definition">
+        <h3>📖 Important Concept</h3>
+        <p>
+            Two-dimensional motion can be studied by resolving the
+            motion into two perpendicular components.
+        </p>
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            The horizontal and vertical motions can be analysed
+            independently.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>7. Uniform Circular Motion</h2>
+
+    <div class="visual">🔄 🏎️</div>
+
+    <div class="definition">
+        <h3>📖 Definition</h3>
+        <p>
+            Uniform circular motion is the motion of an object along
+            a circular path with constant speed.
+        </p>
+    </div>
+
+    <div class="formula">
+        v = rω
+        <br><br>
+        a = v²/r = rω²
+    </div>
+
+    <div class="important">
+        <b>⭐ Important:</b>
+        <p>
+            Even though speed is constant, velocity changes continuously
+            because its direction changes.
+        </p>
+    </div>
+
+</div>
+
+
+<div class="topic">
+
+    <h2>⭐ Quick Revision</h2>
+
+    <div class="visual">🧠 ⚡</div>
+
+    <div class="important">
+        <b>Remember:</b>
+        <p>
+            Aₓ = A cosθ<br>
+            Aᵧ = A sinθ<br><br>
+
+            Projectile Range:
+            R = u² sin2θ / g<br><br>
+
+            Maximum Height:
+            H = u² sin²θ / 2g
+        </p>
+    </div>
+
+</div>
+
+
+<div class="questions">
+
+    <h2>📄 Most Important Questions</h2>
+
+    <p><b>1.</b> Differentiate between scalar and vector quantities with examples.</p>
+
+    <p><b>2.</b> Explain the triangle law of vector addition.</p>
+
+    <p><b>3.</b> Explain the resolution of a vector into rectangular components.</p>
+
+    <p><b>4.</b> Define projectile motion and explain its horizontal and vertical components.</p>
+
+    <p><b>5.</b> ⭐ Prove that the trajectory of a projectile is parabolic.</p>
+
+    <p><b>6.</b> ⭐ Derive the expression for the time of flight of a projectile.</p>
+
+    <p><b>7.</b> ⭐ Derive the expression for maximum height of a projectile.</p>
+
+    <p><b>8.</b> ⭐ Derive the expression for horizontal range of a projectile.</p>
+
+    <p><b>9.</b> Explain why velocity changes in uniform circular motion even though speed remains constant.</p>
+
+    <p><b>10.</b> Write the relation between linear velocity and angular velocity in circular motion.</p>
+
+    <p><b>11.</b> Solve one suitable numerical based on projectile range.</p>
+
+    <p><b>12.</b> Solve one suitable numerical based on vector components.</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Chapter 16 - Probability - Lernix11</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px 15px;
+    background:#111;
+}
+
+.header h1{
+    font-family:cursive;
+    font-size:30px;
+    margin:0;
+}
+
+.header p{
+    color:#bbb;
+}
+
+.topic,
+.mixed{
+    margin:20px 15px;
+    padding:22px;
+    background:linear-gradient(145deg,#111,#252525);
+    border:1px solid #444;
+    border-radius:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.visual{
+    min-height:100px;
+    background:#1b1b1b;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;
+    text-align:center;
+    margin-bottom:18px;
+}
+
+.topic h2,
+.mixed h2{
+    font-family:cursive;
+    font-size:26px;
+}
+
+.definition{
+    background:#191919;
+    padding:15px;
+    border-radius:14px;
+    color:#ddd;
+    line-height:1.7;
+}
+
+.formula{
+    background:#101010;
+    border-left:4px solid white;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+    line-height:1.9;
+    font-weight:bold;
+}
+
+.example{
+    background:#181818;
+    padding:15px;
+    margin-top:18px;
+    border-radius:14px;
+}
+
+.solution{
+    background:#102217;
+    border-left:4px solid #55d98b;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+    line-height:1.7;
+}
+
+.answer{
+    font-weight:bold;
+    color:#8ff0b5;
+}
+
+.important{
+    background:#211b0d;
+    padding:15px;
+    border-radius:14px;
+    margin-top:15px;
+    line-height:1.7;
+}
+
+.mixed-question{
+    background:#181818;
+    padding:16px;
+    margin:14px 0;
+    border-radius:14px;
+    line-height:1.7;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    color:#777;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>📚 Chapter 16</h1>
+
+<p>Probability</p>
+
+<p>Class 11 Mathematics • Lernix11</p>
+
+</div>
+
+
+<!-- TOPIC 1 -->
+
+<div class="topic">
+
+<div class="visual">🎲 🪙 🎯</div>
+
+<h2>1. Introduction to Probability</h2>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+Probability is a measure of how likely an event is to occur.
+</p>
+
+<p>
+The probability of an event always lies between 0 and 1.
+</p>
+
+</div>
+
+<div class="formula">
+
+0 ≤ P(E) ≤ 1
+
+<br><br>
+
+For equally likely outcomes:
+
+<br><br>
+
+P(E) = Number of favourable outcomes /
+Total number of outcomes
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A coin is tossed once. Find the probability of getting Head.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Possible outcomes = {H, T}
+</p>
+
+<p>
+Total outcomes = 2
+</p>
+
+<p>
+Favourable outcomes = 1
+</p>
+
+<p>
+P(H) = 1/2
+</p>
+
+<p class="answer">
+Answer = 1/2
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A die is thrown once. Find the probability of getting 4.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Possible outcomes = 1, 2, 3, 4, 5, 6
+</p>
+
+<p>
+Total outcomes = 6
+</p>
+
+<p>
+Favourable outcomes = 1
+</p>
+
+<p class="answer">
+P(4) = 1/6
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 2 -->
+
+<div class="topic">
+
+<div class="visual">🎲 🔢 ⭐</div>
+
+<h2>2. Sample Space</h2>
+
+<div class="definition">
+
+<p>
+The set of all possible outcomes of an experiment is called
+the sample space.
+</p>
+
+<p>
+It is usually denoted by S.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Write the sample space when a coin is tossed once.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+The possible outcomes are Head and Tail.
+</p>
+
+<p class="answer">
+S = {H, T}
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Write the sample space when a die is thrown once.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p class="answer">
+S = {1, 2, 3, 4, 5, 6}
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 3 -->
+
+<div class="topic">
+
+<div class="visual">🎯 🔵 📌</div>
+
+<h2>3. Events</h2>
+
+<div class="definition">
+
+<p>
+An event is a subset of the sample space.
+</p>
+
+<p>
+An event may contain one or more outcomes.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A die is thrown. Find the event of getting an even number.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Even numbers are 2, 4 and 6.
+</p>
+
+<p class="answer">
+E = {2, 4, 6}
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A die is thrown. Find the event of getting a number greater
+than 4.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Numbers greater than 4 are 5 and 6.
+</p>
+
+<p class="answer">
+E = {5, 6}
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 4 -->
+
+<div class="topic">
+
+<div class="visual">⭕ ❌ 🎯</div>
+
+<h2>4. Complementary Event</h2>
+
+<div class="definition">
+
+<p>
+If E is an event, then its complement is the event that E
+does not occur.
+</p>
+
+</div>
+
+<div class="formula">
+
+P(E') = 1 − P(E)
+
+<br><br>
+
+P(E) + P(E') = 1
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+If P(E) = 3/5, find P(E').
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+P(E') = 1 − P(E)
+</p>
+
+<p>
+= 1 − 3/5
+</p>
+
+<p class="answer">
+= 2/5
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If the probability of passing an exam is 4/5, find the
+probability of not passing.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+P(not passing) = 1 − 4/5
+</p>
+
+<p class="answer">
+= 1/5
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 5 -->
+
+<div class="topic">
+
+<div class="visual">➕ 🎯 🎲</div>
+
+<h2>5. Addition of Probabilities</h2>
+
+<div class="definition">
+
+<p>
+For two mutually exclusive events E and F:
+</p>
+
+</div>
+
+<div class="formula">
+
+P(E ∪ F) = P(E) + P(F)
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A die is thrown. Find the probability of getting 1 or 2.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+P(1) = 1/6
+</p>
+
+<p>
+P(2) = 1/6
+</p>
+
+<p>
+Therefore:
+</p>
+
+<p>
+P(1 or 2) = 1/6 + 1/6
+</p>
+
+<p class="answer">
+= 1/3
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A die is thrown. Find the probability of getting 2 or 5.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+P(2) = 1/6
+</p>
+
+<p>
+P(5) = 1/6
+</p>
+
+<p>
+P(2 or 5) = 1/6 + 1/6
+</p>
+
+<p class="answer">
+= 1/3
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 6 -->
+
+<div class="topic">
+
+<div class="visual">🎲 × 🎯 🔢</div>
+
+<h2>6. Multiplication of Probabilities</h2>
+
+<div class="definition">
+
+<p>
+For independent events E and F:
+</p>
+
+</div>
+
+<div class="formula">
+
+P(E ∩ F) = P(E) × P(F)
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+A coin is tossed twice. Find the probability of getting
+Head both times.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+P(H) = 1/2
+</p>
+
+<p>
+P(H and H) = 1/2 × 1/2
+</p>
+
+<p class="answer">
+= 1/4
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+A coin is tossed twice. Find the probability of getting
+Tail both times.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+P(T) = 1/2
+</p>
+
+<p>
+P(T and T) = 1/2 × 1/2
+</p>
+
+<p class="answer">
+= 1/4
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 7 -->
+
+<div class="topic">
+
+<div class="visual">🃏 ♠️ ♥️ ♦️</div>
+
+<h2>7. Probability Using Cards</h2>
+
+<div class="definition">
+
+<p>
+A standard deck contains 52 playing cards.
+</p>
+
+<p>
+There are 4 suits:
+</p>
+
+<p>
+♠ Spades • ♥ Hearts • ♦ Diamonds • ♣ Clubs
+</p>
+
+<p>
+Each suit contains 13 cards.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the probability of drawing an Ace from a standard deck
+of 52 cards.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Number of Aces = 4
+</p>
+
+<p>
+Total cards = 52
+</p>
+
+<p>
+P(Ace) = 4/52
+</p>
+
+<p class="answer">
+= 1/13
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the probability of drawing a King.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Number of Kings = 4
+</p>
+
+<p>
+Total cards = 52
+</p>
+
+<p>
+P(King) = 4/52
+</p>
+
+<p class="answer">
+= 1/13
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 8 -->
+
+<div class="topic">
+
+<div class="visual">🪙 🎲 🧮</div>
+
+<h2>8. Important Properties</h2>
+
+<div class="definition">
+
+<p>
+Probability follows some important properties which are useful
+while solving numerical problems.
+</p>
+
+</div>
+
+<div class="formula">
+
+0 ≤ P(E) ≤ 1
+
+<br><br>
+
+P(S) = 1
+
+<br><br>
+
+P(∅) = 0
+
+<br><br>
+
+P(E') = 1 − P(E)
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Can the probability of an event be 1.5?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Probability always lies between 0 and 1.
+</p>
+
+<p>
+Since 1.5 > 1:
+</p>
+
+<p class="answer">
+It cannot be a probability.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+What is the probability of a sure event?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+A sure event always occurs.
+</p>
+
+<p class="answer">
+P(E) = 1
+</p>
+
+</div>
+
+</div>
+
+
+<!-- IMPORTANT -->
+
+<div class="topic">
+
+<div class="visual">⭐ 📌 🧠</div>
+
+<h2>⭐ Important Formula Revision</h2>
+
+<div class="important">
+
+<p><b>1.</b> 0 ≤ P(E) ≤ 1</p>
+
+<p><b>2.</b> P(S) = 1</p>
+
+<p><b>3.</b> P(∅) = 0</p>
+
+<p><b>4.</b> P(E) = Favourable outcomes / Total outcomes</p>
+
+<p><b>5.</b> P(E') = 1 − P(E)</p>
+
+<p><b>6.</b> P(E) + P(E') = 1</p>
+
+<p><b>7.</b> For mutually exclusive events:
+P(E ∪ F) = P(E) + P(F)</p>
+
+<p><b>8.</b> For independent events:
+P(E ∩ F) = P(E) × P(F)</p>
+
+<p><b>9.</b> A standard deck contains 52 cards.</p>
+
+<p><b>10.</b> A standard deck has 4 Aces and 4 Kings.</p>
+
+</div>
+
+</div>
+
+
+<!-- MIXED QUESTIONS -->
+
+<div class="mixed">
+
+<div class="visual">🔥 📝 🎯</div>
+
+<h2>🔥 Mixed Questions</h2>
+
+<div class="mixed-question">
+<b>🟢 Q1.</b>
+A coin is tossed once. Find the probability of getting Tail.
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q2.</b>
+A die is thrown once. Find the probability of getting 6.
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q3.</b>
+Write the sample space when a coin is tossed once.
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q4.</b>
+A die is thrown. Find the probability of getting an even number.
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q5.</b>
+If P(E) = 2/7, find P(E').
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q6.</b>
+A coin is tossed twice. Find the probability of getting
+two Heads.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q7.</b>
+A die is thrown. Find the probability of getting a number
+greater than 3.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q8.</b>
+A card is drawn from a standard deck. Find the probability
+of getting an Ace.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q9.</b>
+A die is thrown. Find the probability of getting 2 or 5.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q10.</b>
+If P(E) = 3/8, find P(E') and verify that
+P(E) + P(E') = 1.
+</div>
+
+</div>
+
+
+<div class="footer">
+
+📚 Lernix11 • Class 11 Mathematics
+
+<br>
+
+Chapter 16 • Probability
+
+<br><br>
+
+🎉 Complete Mathematics Chapter Series
+
+</div>
+
+
+</body>
+
+</html>

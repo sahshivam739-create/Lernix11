@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Chapter 12 - Three Dimensional Geometry - Lernix11</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px 15px;
+    background:#111;
+}
+
+.header h1{
+    font-family:cursive;
+    font-size:30px;
+    margin:0;
+}
+
+.header p{
+    color:#bbb;
+}
+
+.topic,
+.mixed{
+    margin:20px 15px;
+    padding:22px;
+    background:linear-gradient(145deg,#111,#252525);
+    border:1px solid #444;
+    border-radius:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.visual{
+    min-height:100px;
+    background:#1b1b1b;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;
+    text-align:center;
+    margin-bottom:18px;
+}
+
+.topic h2,
+.mixed h2{
+    font-family:cursive;
+    font-size:26px;
+}
+
+.definition{
+    background:#191919;
+    padding:15px;
+    border-radius:14px;
+    color:#ddd;
+    line-height:1.7;
+}
+
+.formula{
+    background:#101010;
+    border-left:4px solid white;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+    line-height:1.9;
+    font-weight:bold;
+}
+
+.example{
+    background:#181818;
+    padding:15px;
+    margin-top:18px;
+    border-radius:14px;
+}
+
+.solution{
+    background:#102217;
+    border-left:4px solid #55d98b;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+    line-height:1.7;
+}
+
+.answer{
+    font-weight:bold;
+    color:#8ff0b5;
+}
+
+.important{
+    background:#211b0d;
+    padding:15px;
+    border-radius:14px;
+    margin-top:15px;
+    line-height:1.7;
+}
+
+.mixed-question{
+    background:#181818;
+    padding:16px;
+    margin:14px 0;
+    border-radius:14px;
+    line-height:1.7;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    color:#777;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>📚 Chapter 12</h1>
+
+<p>Introduction to Three Dimensional Geometry</p>
+
+<p>Class 11 Mathematics • Lernix11</p>
+
+</div>
+
+
+<!-- TOPIC 1 -->
+
+<div class="topic">
+
+<div class="visual">📍📍📍</div>
+
+<h2>1. Introduction to 3D Geometry</h2>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+Three-dimensional geometry deals with points, lines and objects
+in space.
+</p>
+
+<p>
+A point in three-dimensional space is represented by three
+coordinates:
+</p>
+
+<p>
+(x, y, z)
+</p>
+
+<p>
+Here x, y and z represent the position along the three coordinate
+axes.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Write the coordinates of a point whose x-coordinate is 3,
+y-coordinate is 4 and z-coordinate is 5.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+The coordinates are directly given.
+</p>
+
+<p class="answer">
+Point = (3,4,5)
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+How many coordinates are required to locate a point in 3D space?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Three coordinates are required:
+</p>
+
+<p>
+x, y and z
+</p>
+
+<p class="answer">
+Answer: 3 coordinates
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 2 -->
+
+<div class="topic">
+
+<div class="visual">📏 📐 📍</div>
+
+<h2>2. Distance Between Two Points</h2>
+
+<div class="definition">
+
+<p>
+The distance between two points in three-dimensional space can be
+found using the 3D distance formula.
+</p>
+
+</div>
+
+<div class="formula">
+
+If A(x₁,y₁,z₁) and B(x₂,y₂,z₂),
+
+<br><br>
+
+AB = √[(x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²]
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the distance between:
+</p>
+
+<p>
+A(1,2,3) and B(4,6,3)
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+AB = √[(4−1)² + (6−2)² + (3−3)²]
+</p>
+
+<p>
+= √[9 + 16 + 0]
+</p>
+
+<p>
+= √25
+</p>
+
+<p class="answer">
+AB = 5
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the distance between (2,3,4) and (5,7,4).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+d = √[(5−2)² + (7−3)² + (4−4)²]
+</p>
+
+<p>
+= √[9 + 16]
+</p>
+
+<p class="answer">
+d = 5
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 3 -->
+
+<div class="topic">
+
+<div class="visual">📍 ➗ 📍</div>
+
+<h2>3. Section Formula</h2>
+
+<div class="definition">
+
+<p>
+Section formula gives the coordinates of a point which divides the
+line segment joining two points in a given ratio.
+</p>
+
+</div>
+
+<div class="formula">
+
+If P divides A(x₁,y₁,z₁) and B(x₂,y₂,z₂)
+in ratio m:n,
+
+<br><br>
+
+P =
+
+((mx₂+nx₁)/(m+n),
+
+(my₂+ny₁)/(m+n),
+
+(mz₂+nz₁)/(m+n))
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the midpoint of A(2,4,6) and B(4,8,10).
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Midpoint =
+</p>
+
+<p>
+((2+4)/2, (4+8)/2, (6+10)/2)
+</p>
+
+<p class="answer">
+= (3,6,8)
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the point dividing (1,2,3) and (4,5,6)
+in the ratio 1:2.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+x = [1(4)+2(1)]/3 = 2
+</p>
+
+<p>
+y = [1(5)+2(2)]/3 = 3
+</p>
+
+<p>
+z = [1(6)+2(3)]/3 = 4
+</p>
+
+<p class="answer">
+Point = (2,3,4)
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 4 -->
+
+<div class="topic">
+
+<div class="visual">🎯 📐 📊</div>
+
+<h2>4. Coordinates of a Point</h2>
+
+<div class="definition">
+
+<p>
+In 3D geometry, the position of a point is represented using
+ordered triplets (x,y,z).
+</p>
+
+<p>
+The three coordinate planes are:
+</p>
+
+<p>
+• XY-plane
+</p>
+
+<p>
+• YZ-plane
+</p>
+
+<p>
+• ZX-plane
+</p>
+
+</div>
+
+
+<div class="formula">
+
+XY-plane: z = 0
+
+<br>
+
+YZ-plane: x = 0
+
+<br>
+
+ZX-plane: y = 0
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Which plane contains the point (3,4,0)?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+For the XY-plane:
+</p>
+
+<p>
+z = 0
+</p>
+
+<p>
+Here z = 0.
+</p>
+
+<p class="answer">
+Therefore, the point lies in the XY-plane.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Which plane contains the point (0,5,7)?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+For the YZ-plane:
+</p>
+
+<p>
+x = 0
+</p>
+
+<p>
+Here x = 0.
+</p>
+
+<p class="answer">
+Therefore, the point lies in the YZ-plane.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 5 -->
+
+<div class="topic">
+
+<div class="visual">➕ ➖ 📍</div>
+
+<h2>5. Coordinates of Points on Axes</h2>
+
+<div class="definition">
+
+<p>
+A point on the x-axis has y = 0 and z = 0.
+</p>
+
+<p>
+A point on the y-axis has x = 0 and z = 0.
+</p>
+
+<p>
+A point on the z-axis has x = 0 and y = 0.
+</p>
+
+</div>
+
+<div class="formula">
+
+x-axis: (x,0,0)
+
+<br>
+
+y-axis: (0,y,0)
+
+<br>
+
+z-axis: (0,0,z)
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Check whether (5,0,0) lies on the x-axis.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+For x-axis:
+</p>
+
+<p>
+y = 0 and z = 0
+</p>
+
+<p>
+The point is (5,0,0).
+</p>
+
+<p class="answer">
+Therefore, it lies on the x-axis.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Which axis contains the point (0,0,7)?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+x = 0 and y = 0.
+</p>
+
+<p class="answer">
+Therefore, the point lies on the z-axis.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 6 -->
+
+<div class="topic">
+
+<div class="visual">📊 ⭐ 📍</div>
+
+<h2>6. Octants</h2>
+
+<div class="definition">
+
+<p>
+The three coordinate planes divide the entire 3D space into
+eight regions called octants.
+</p>
+
+<p>
+The signs of x, y and z determine the position of a point.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+What are the signs of the coordinates of a point in the first
+octant?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+In the first octant:
+</p>
+
+<p class="answer">
+x &gt; 0, y &gt; 0, z &gt; 0
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+In which octant does (2,3,4) lie?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+All three coordinates are positive.
+</p>
+
+<p class="answer">
+Therefore, it lies in the first octant.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- IMPORTANT -->
+
+<div class="topic">
+
+<div class="visual">⭐ 📌 🧠</div>
+
+<h2>⭐ Important Formula Revision</h2>
+
+<div class="important">
+
+<p><b>1.</b> Point in 3D = (x,y,z)</p>
+
+<p><b>2.</b> Distance = √[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]</p>
+
+<p><b>3.</b> Midpoint = ((x₁+x₂)/2,(y₁+y₂)/2,(z₁+z₂)/2)</p>
+
+<p><b>4.</b> XY-plane: z = 0</p>
+
+<p><b>5.</b> YZ-plane: x = 0</p>
+
+<p><b>6.</b> ZX-plane: y = 0</p>
+
+<p><b>7.</b> x-axis: (x,0,0)</p>
+
+<p><b>8.</b> y-axis: (0,y,0)</p>
+
+<p><b>9.</b> z-axis: (0,0,z)</p>
+
+<p><b>10.</b> Three coordinate planes divide space into 8 octants.</p>
+
+</div>
+
+</div>
+
+
+<!-- MIXED QUESTIONS -->
+
+<div class="mixed">
+
+<div class="visual">🔥 📝 🧠</div>
+
+<h2>🔥 Mixed Questions</h2>
+
+<div class="mixed-question">
+<b>🟢 Q1.</b>
+Find the distance between (1,2,3) and (4,6,3).
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q2.</b>
+Find the midpoint of (2,4,6) and (8,10,12).
+</div>
+
+<div class="mixed-question">
+<b>🟢 Q3.</b>
+Which plane contains the point (5,7,0)?
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q4.</b>
+Which plane contains the point (0,4,8)?
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q5.</b>
+Which axis contains the point (7,0,0)?
+</div>
+
+<div class="mixed-question">
+<b>🟡 Q6.</b>
+Which axis contains the point (0,0,9)?
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q7.</b>
+Find the point dividing (1,2,3) and (7,8,9) in the ratio 1:2.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q8.</b>
+Find the distance between (2,3,4) and (6,6,4).
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q9.</b>
+State the signs of x, y and z in the first octant.
+</div>
+
+<div class="mixed-question">
+<b>🔴 Q10.</b>
+Find the point which is the midpoint of (−2,4,6) and (8,−2,10).
+</div>
+
+</div>
+
+
+<div class="footer">
+
+📚 Lernix11 • Class 11 Mathematics
+
+<br>
+
+Chapter 12 • Introduction to Three Dimensional Geometry
+
+</div>
+
+
+</body>
+
+</html>

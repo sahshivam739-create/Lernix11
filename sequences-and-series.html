@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Chapter 9 - Sequences and Series - Lernix11</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:white;
+}
+
+.header{
+    text-align:center;
+    padding:30px 15px;
+    background:#111;
+}
+
+.header h1{
+    font-family:cursive;
+    font-size:30px;
+    margin:0;
+}
+
+.header p{
+    color:#bbb;
+}
+
+.topic,
+.mixed{
+    margin:20px 15px;
+    padding:22px;
+    background:linear-gradient(145deg,#111,#252525);
+    border:1px solid #444;
+    border-radius:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.visual{
+    min-height:100px;
+    background:#1b1b1b;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;
+    text-align:center;
+    margin-bottom:18px;
+}
+
+.topic h2,
+.mixed h2{
+    font-family:cursive;
+    font-size:26px;
+}
+
+.definition{
+    background:#191919;
+    padding:15px;
+    border-radius:14px;
+    color:#ddd;
+    line-height:1.7;
+}
+
+.formula{
+    background:#101010;
+    border-left:4px solid white;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+    line-height:1.9;
+    font-weight:bold;
+}
+
+.example{
+    background:#181818;
+    padding:15px;
+    margin-top:18px;
+    border-radius:14px;
+}
+
+.solution{
+    background:#102217;
+    border-left:4px solid #55d98b;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+    line-height:1.7;
+}
+
+.answer{
+    font-weight:bold;
+    color:#8ff0b5;
+}
+
+.important{
+    background:#211b0d;
+    padding:15px;
+    border-radius:14px;
+    margin-top:15px;
+    line-height:1.8;
+}
+
+.mixed-question{
+    background:#181818;
+    padding:17px;
+    margin:14px 0;
+    border-radius:14px;
+    line-height:1.8;
+}
+
+.note{
+    background:#151d2b;
+    border-left:4px solid #6da8ff;
+    padding:15px;
+    border-radius:12px;
+    margin-top:15px;
+    line-height:1.7;
+}
+
+.footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>📚 Chapter 9</h1>
+
+<p>Sequences and Series</p>
+
+<p>Class 11 Mathematics • Lernix11</p>
+
+</div>
+
+
+<!-- TOPIC 1 -->
+
+<div class="topic">
+
+<div class="visual">🔢 ➡️ 🔢</div>
+
+<h2>1. Introduction to Sequences</h2>
+
+<div class="definition">
+
+<h3>📖 Concept</h3>
+
+<p>
+A sequence is an ordered list of numbers arranged according
+to a definite rule.
+</p>
+
+<p>
+Example:
+</p>
+
+<p>
+2, 4, 6, 8, 10, ...
+</p>
+
+<p>
+Each number is called a term of the sequence.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Write the next two terms:
+</p>
+
+<p>
+3, 6, 9, 12, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Common difference = 3
+</p>
+
+<p>
+12 + 3 = 15
+</p>
+
+<p>
+15 + 3 = 18
+</p>
+
+<p class="answer">
+Answer: 15, 18
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the next two terms:
+</p>
+
+<p>
+2, 4, 8, 16, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Each term is multiplied by 2.
+</p>
+
+<p>
+16 × 2 = 32
+</p>
+
+<p>
+32 × 2 = 64
+</p>
+
+<p class="answer">
+Answer: 32, 64
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 2 -->
+
+<div class="topic">
+
+<div class="visual">➕ 📏 🔢</div>
+
+<h2>2. Arithmetic Progression (AP)</h2>
+
+<div class="definition">
+
+<p>
+An arithmetic progression is a sequence in which the difference
+between consecutive terms is constant.
+</p>
+
+<p>
+The constant difference is called the common difference and
+is denoted by d.
+</p>
+
+</div>
+
+<div class="formula">
+
+a, a+d, a+2d, a+3d, ...
+
+<br><br>
+
+First term = a
+
+<br>
+
+Common difference = d
+
+<br>
+
+Tₙ = a + (n−1)d
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the 10th term of:
+</p>
+
+<p>
+2, 5, 8, 11, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 2
+</p>
+
+<p>
+d = 5 − 2 = 3
+</p>
+
+<p>
+n = 10
+</p>
+
+<p>
+T₁₀ = a + (n−1)d
+</p>
+
+<p>
+= 2 + 9(3)
+</p>
+
+<p class="answer">
+= 29
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the 15th term of:
+</p>
+
+<p>
+7, 10, 13, 16, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 7
+</p>
+
+<p>
+d = 3
+</p>
+
+<p>
+T₁₅ = 7 + 14(3)
+</p>
+
+<p class="answer">
+= 49
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 3 -->
+
+<div class="topic">
+
+<div class="visual">🔍 🔢 📌</div>
+
+<h2>3. Finding a Particular Term of AP</h2>
+
+<div class="definition">
+
+<p>
+The nth term formula can be used to find which term of an AP
+is equal to a given number.
+</p>
+
+</div>
+
+<div class="formula">
+
+Tₙ = a + (n−1)d
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Which term of the AP 5, 9, 13, 17, ... is 81?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 5, d = 4
+</p>
+
+<p>
+81 = 5 + (n−1)4
+</p>
+
+<p>
+76 = 4(n−1)
+</p>
+
+<p>
+19 = n−1
+</p>
+
+<p class="answer">
+n = 20
+</p>
+
+<p>
+Therefore, 81 is the 20th term.
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Which term of the AP 3, 7, 11, 15, ... is 99?
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 3, d = 4
+</p>
+
+<p>
+99 = 3 + (n−1)4
+</p>
+
+<p>
+96 = 4(n−1)
+</p>
+
+<p>
+24 = n−1
+</p>
+
+<p class="answer">
+n = 25
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 4 -->
+
+<div class="topic">
+
+<div class="visual">Σ ➕ 🔢</div>
+
+<h2>4. Sum of n Terms of an AP</h2>
+
+<div class="definition">
+
+<p>
+The sum of the first n terms of an AP is represented by Sₙ.
+</p>
+
+</div>
+
+<div class="formula">
+
+Sₙ = n/2 [2a + (n−1)d]
+
+<br><br>
+
+Also,
+
+<br>
+
+Sₙ = n/2 (a + l)
+
+<br>
+
+where l = last term
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the sum of the first 10 terms of:
+</p>
+
+<p>
+2, 5, 8, 11, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 2, d = 3, n = 10
+</p>
+
+<p>
+S₁₀ = 10/2 [2(2) + 9(3)]
+</p>
+
+<p>
+= 5[4 + 27]
+</p>
+
+<p>
+= 5 × 31
+</p>
+
+<p class="answer">
+= 155
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the sum of the first 20 natural numbers.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+1 + 2 + 3 + ... + 20
+</p>
+
+<p>
+S₂₀ = 20/2 [2 + 19]
+</p>
+
+<p>
+= 10 × 21
+</p>
+
+<p class="answer">
+= 210
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 5 -->
+
+<div class="topic">
+
+<div class="visual">📌 ➕ 📌</div>
+
+<h2>5. Important Properties of AP</h2>
+
+<div class="definition">
+
+<p>
+Some useful properties of an arithmetic progression are:
+</p>
+
+</div>
+
+<div class="formula">
+
+If a, b, c are consecutive terms of an AP:
+
+<br><br>
+
+2b = a + c
+
+<br><br>
+
+Therefore,
+
+<br>
+
+b = (a+c)/2
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find x if 5, x, 17 are consecutive terms of an AP.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+2x = 5 + 17
+</p>
+
+<p>
+2x = 22
+</p>
+
+<p class="answer">
+x = 11
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+If 4, x, 20 are consecutive terms of an AP, find x.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+2x = 4 + 20
+</p>
+
+<p>
+2x = 24
+</p>
+
+<p class="answer">
+x = 12
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 6 -->
+
+<div class="topic">
+
+<div class="visual">📐 ➕ 🔢</div>
+
+<h2>6. Arithmetic Mean</h2>
+
+<div class="definition">
+
+<p>
+The arithmetic mean of two numbers a and b is the number
+which is equally spaced from both numbers.
+</p>
+
+</div>
+
+<div class="formula">
+
+AM = (a+b)/2
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the arithmetic mean of 8 and 12.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+AM = (8 + 12)/2
+</p>
+
+<p class="answer">
+= 10
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Insert three arithmetic means between 2 and 18.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+The AP is:
+</p>
+
+<p>
+2, A, B, C, 18
+</p>
+
+<p>
+There are 4 equal gaps.
+</p>
+
+<p>
+d = (18−2)/4
+</p>
+
+<p>
+d = 4
+</p>
+
+<p>
+Therefore:
+</p>
+
+<p class="answer">
+2, 6, 10, 14, 18
+</p>
+
+<p>
+The three arithmetic means are:
+</p>
+
+<p class="answer">
+6, 10, 14
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 7 -->
+
+<div class="topic">
+
+<div class="visual">✖️ 📈 🔢</div>
+
+<h2>7. Geometric Progression (GP)</h2>
+
+<div class="definition">
+
+<p>
+A geometric progression is a sequence in which the ratio between
+consecutive terms is constant.
+</p>
+
+<p>
+The constant ratio is called the common ratio and is denoted by r.
+</p>
+
+</div>
+
+<div class="formula">
+
+a, ar, ar², ar³, ...
+
+<br><br>
+
+First term = a
+
+<br>
+
+Common ratio = r
+
+<br>
+
+Tₙ = arⁿ⁻¹
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the 5th term of:
+</p>
+
+<p>
+2, 6, 18, 54, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 2
+</p>
+
+<p>
+r = 6/2 = 3
+</p>
+
+<p>
+T₅ = 2 × 3⁴
+</p>
+
+<p class="answer">
+= 162
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the 6th term of:
+</p>
+
+<p>
+5, 10, 20, 40, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 5
+</p>
+
+<p>
+r = 2
+</p>
+
+<p>
+T₆ = 5 × 2⁵
+</p>
+
+<p class="answer">
+= 160
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 8 -->
+
+<div class="topic">
+
+<div class="visual">📌 ✖️ 📌</div>
+
+<h2>8. Important Properties of GP</h2>
+
+<div class="definition">
+
+<p>
+If a, b, c are consecutive terms of a GP, then:
+</p>
+
+</div>
+
+<div class="formula">
+
+b² = ac
+
+<br><br>
+
+Therefore,
+
+<br>
+
+b = √ac
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find x if 4, x, 36 are consecutive terms of a GP.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+x² = 4 × 36
+</p>
+
+<p>
+x² = 144
+</p>
+
+<p class="answer">
+x = 12
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find x if 9, x, 25 are consecutive positive terms of a GP.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+x² = 9 × 25
+</p>
+
+<p>
+x² = 225
+</p>
+
+<p class="answer">
+x = 15
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 9 -->
+
+<div class="topic">
+
+<div class="visual">Σ ✖️ 📊</div>
+
+<h2>9. Sum of n Terms of a GP</h2>
+
+<div class="formula">
+
+For r ≠ 1:
+
+<br><br>
+
+Sₙ = a(rⁿ−1)/(r−1)
+
+<br><br>
+
+or
+
+<br><br>
+
+Sₙ = a(1−rⁿ)/(1−r)
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the sum of the first 5 terms of:
+</p>
+
+<p>
+2, 4, 8, 16, ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 2, r = 2, n = 5
+</p>
+
+<p>
+S₅ = 2(2⁵−1)/(2−1)
+</p>
+
+<p>
+= 2(32−1)
+</p>
+
+<p class="answer">
+= 62
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the sum:
+</p>
+
+<p>
+3 + 6 + 12 + 24 + 48
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 3, r = 2, n = 5
+</p>
+
+<p>
+S₅ = 3(2⁵−1)/(2−1)
+</p>
+
+<p>
+= 3 × 31
+</p>
+
+<p class="answer">
+= 93
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 10 -->
+
+<div class="topic">
+
+<div class="visual">∞ 🔄 📉</div>
+
+<h2>10. Infinite GP</h2>
+
+<div class="definition">
+
+<p>
+An infinite GP has infinitely many terms.
+Its sum exists when the absolute value of the common ratio
+is less than 1.
+</p>
+
+</div>
+
+<div class="formula">
+
+S∞ = a/(1−r)
+
+<br><br>
+
+Condition:
+
+|r| &lt; 1
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find the sum:
+</p>
+
+<p>
+1 + 1/2 + 1/4 + 1/8 + ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 1
+</p>
+
+<p>
+r = 1/2
+</p>
+
+<p>
+S∞ = 1/(1−1/2)
+</p>
+
+<p class="answer">
+= 2
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find the sum:
+</p>
+
+<p>
+3 + 1.5 + 0.75 + ...
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+a = 3
+</p>
+
+<p>
+r = 1/2
+</p>
+
+<p>
+S∞ = 3/(1−1/2)
+</p>
+
+<p class="answer">
+= 6
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 11 -->
+
+<div class="topic">
+
+<div class="visual">⭐ 📐 ✖️</div>
+
+<h2>11. AM and GM Relation</h2>
+
+<div class="definition">
+
+<p>
+For two positive numbers a and b, the arithmetic mean is
+always greater than or equal to the geometric mean.
+</p>
+
+</div>
+
+<div class="formula">
+
+AM ≥ GM
+
+<br><br>
+
+(a+b)/2 ≥ √ab
+
+<br><br>
+
+Equality holds when:
+
+a = b
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find AM and GM of 4 and 16.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+AM = (4+16)/2
+</p>
+
+<p>
+= 10
+</p>
+
+<p>
+GM = √(4×16)
+</p>
+
+<p>
+= √64
+</p>
+
+<p>
+= 8
+</p>
+
+<p class="answer">
+Therefore AM ≥ GM.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- TOPIC 12 -->
+
+<div class="topic">
+
+<div class="visual">🔢 ➕ ✖️</div>
+
+<h2>12. Special Series</h2>
+
+<div class="definition">
+
+<p>
+Some standard sums are frequently used in Class 11 problems.
+</p>
+
+</div>
+
+<div class="formula">
+
+1 + 2 + 3 + ... + n
+
+<br>
+
+= n(n+1)/2
+
+<br><br>
+
+1² + 2² + 3² + ... + n²
+
+<br>
+
+= n(n+1)(2n+1)/6
+
+<br><br>
+
+1³ + 2³ + 3³ + ... + n³
+
+<br>
+
+= [n(n+1)/2]²
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 1</h3>
+
+<p>
+Find 1 + 2 + 3 + ... + 50.
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+Sum = n(n+1)/2
+</p>
+
+<p>
+= 50 × 51 / 2
+</p>
+
+<p class="answer">
+= 1275
+</p>
+
+</div>
+
+
+<div class="example">
+
+<h3>✏️ Ex 2</h3>
+
+<p>
+Find 1² + 2² + 3² + 4² + 5².
+</p>
+
+</div>
+
+<div class="solution">
+
+<h3>✅ Solution</h3>
+
+<p>
+n = 5
+</p>
+
+<p>
+Sum = 5×6×11/6
+</p>
+
+<p class="answer">
+= 55
+</p>
+
+</div>
+
+</div>
+
+
+<!-- IMPORTANT -->
+
+<div class="topic">
+
+<div class="visual">⭐ 📌 🧠</div>
+
+<h2>⭐ Important Formula Revision</h2>
+
+<div class="important">
+
+<p><b>1.</b> AP nth term: Tₙ = a + (n−1)d</p>
+
+<p><b>2.</b> AP sum: Sₙ = n/2[2a+(n−1)d]</p>
+
+<p><b>3.</b> AP consecutive terms: 2b = a+c</p>
+
+<p><b>4.</b> Arithmetic Mean: AM = (a+b)/2</p>
+
+<p><b>5.</b> GP nth term: Tₙ = arⁿ⁻¹</p>
+
+<p><b>6.</b> GP consecutive terms: b² = ac</p>
+
+<p><b>7.</b> GP sum: Sₙ = a(rⁿ−1)/(r−1)</p>
+
+<p><b>8.</b> Infinite GP: S∞ = a/(1−r), |r| &lt; 1</p>
+
+<p><b>9.</b> Geometric Mean: GM = √ab</p>
+
+<p><b>10.</b> AM ≥ GM for positive numbers.</p>
+
+<p><b>11.</b> 1+2+...+n = n(n+1)/2</p>
+
+<p><b>12.</b> 1²+2²+...+n² = n(n+1)(2n+1)/6</p>
+
+<p><b>13.</b> 1³+2³+...+n³ = [n(n+1)/2]²</p>
+
+</div>
+
+</div>
+
+
+<!-- FINAL PRACTICE PAGE -->
+
+<div class="mixed">
+
+<div class="visual">🔥 📝 🎯</div>
+
+<h2>🔥 Final Practice Questions</h2>
+
+<p>
+Try these questions yourself. Solutions are intentionally not
+shown on this page.
+</p>
+
+
+<div class="mixed-question">
+<b>🟢 Q1.</b>
+Find the 25th term of the AP:
+4, 9, 14, 19, ...
+</div>
+
+
+<div class="mixed-question">
+<b>🟢 Q2.</b>
+Find the sum of the first 20 terms of the AP:
+3, 7, 11, 15, ...
+</div>
+
+
+<div class="mixed-question">
+<b>🟢 Q3.</b>
+Which term of the AP 7, 12, 17, 22, ... is 102?
+</div>
+
+
+<div class="mixed-question">
+<b>🟡 Q4.</b>
+Insert three arithmetic means between 5 and 25.
+</div>
+
+
+<div class="mixed-question">
+<b>🟡 Q5.</b>
+Find the 8th term of the GP:
+3, 6, 12, 24, ...
+</div>
+
+
+<div class="mixed-question">
+<b>🟡 Q6.</b>
+Find the sum of the first 6 terms of:
+2, 6, 18, 54, ...
+</div>
+
+
+<div class="mixed-question">
+<b>🔴 Q7.</b>
+Find the infinite sum:
+2 + 1 + 1/2 + 1/4 + ...
+</div>
+
+
+<div class="mixed-question">
+<b>🔴 Q8.</b>
+Find the geometric mean between 9 and 25.
+</div>
+
+
+<div class="mixed-question">
+<b>🔴 Q9.</b>
+Find the sum:
+1 + 2 + 3 + ... + 100.
+</div>
+
+
+<div class="mixed-question">
+<b>🔥 Q10.</b>
+If the first term of an AP is 5 and the common difference
+is 3, find the sum of its first 30 terms.
+</div>
+
+</div>
+
+
+<div class="footer">
+
+📚 Lernix11 • Class 11 Mathematics
+
+<br>
+
+Chapter 9 • Sequences and Series
+
+<br><br>
+
+⭐ Learn • Practice • Improve
+
+</div>
+
+
+</body>
+
+</html>
