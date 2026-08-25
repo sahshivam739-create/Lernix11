@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Lernix11</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial,sans-serif;
+            background:#080808;
+            color:white;
+        }
+
+        .header{
+            text-align:center;
+            padding:35px 15px 25px;
+        }
+
+        .header h1{
+            font-family:cursive;
+            font-size:40px;
+            margin:0;
+            letter-spacing:2px;
+        }
+
+        .header p{
+            color:#bdbdbd;
+            font-size:16px;
+        }
+
+        .chapter{
+            min-height:250px;
+            margin:20px 15px;
+            padding:28px 22px;
+            background:linear-gradient(145deg,#111111,#292929);
+            color:white;
+            border-radius:28px;
+            border:1px solid #444;
+            box-shadow:0 12px 30px rgba(0,0,0,.5);
+            text-align:center;
+        }
+
+        .chapter .visual{
+            min-height:110px;
+            background:#1a1a1a;
+            border-radius:22px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:60px;
+            margin-bottom:18px;
+        }
+
+        .chapter h2{
+            font-family:cursive;
+            font-size:30px;
+            margin:8px 0;
+            letter-spacing:1px;
+        }
+
+        .chapter h3{
+            font-family:cursive;
+            font-size:23px;
+            color:#eeeeee;
+            margin:8px 0;
+        }
+
+        .chapter p{
+            color:#cfcfcf;
+            font-size:16px;
+            line-height:1.7;
+        }
+
+        .chapter button{
+            width:100%;
+            padding:14px;
+            margin-top:15px;
+            border:none;
+            border-radius:15px;
+            background:white;
+            color:#111;
+            font-weight:bold;
+            font-size:16px;
+        }
+
+        .chapter button:active{
+            transform:scale(.97);
+        }
+
+        .about{
+            margin:30px 15px;
+            padding:25px 20px;
+            background:linear-gradient(145deg,#111,#222);
+            border:1px solid #444;
+            border-radius:25px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,.4);
+        }
+
+        .about h2{
+            font-family:cursive;
+            font-size:28px;
+            margin-top:0;
+        }
+
+        .about p{
+            color:#d0d0d0;
+            margin:12px 0;
+            line-height:1.5;
+        }
+
+        .footer{
+            text-align:center;
+            padding:20px;
+            color:#777;
+            font-size:13px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="header">
+
+        <h1>🚀 Lernix11</h1>
+
+        <p>Class 11 PCM Learning App</p>
+
+        <p>📚 Learn • Practice • Improve</p>
+
+    </div>
+
+
+    <!-- PHYSICS -->
+
+    <div class="chapter">
+
+        <div class="visual">⚡📐🔭</div>
+
+        <h2>Physics</h2>
+
+        <h3>Class 11 Physics</h3>
+
+        <p>
+            Mechanics • Laws of Motion • Work Energy •
+            Waves • Oscillations • Thermodynamics
+        </p>
+
+        <button onclick="window.location.href='physics.html'">
+            🚀 Open Physics
+        </button>
+
+    </div>
+
+
+    <!-- CHEMISTRY -->
+
+    <div class="chapter">
+
+        <div class="visual">🧪⚛️🔬</div>
+
+        <h2>Chemistry</h2>
+
+        <h3>Class 11 Chemistry</h3>
+
+        <p>
+            Physical Chemistry • Inorganic Chemistry •
+            Organic Chemistry • Important Questions
+        </p>
+
+        <button onclick="window.location.href='chemistry.html'">
+            🚀 Open Chemistry
+        </button>
+
+    </div>
+
+
+    <!-- MATHS -->
+
+    <div class="chapter">
+
+        <div class="visual">📐🧮🔢</div>
+
+        <h2>Mathematics</h2>
+
+        <h3>Class 11 Mathematics</h3>
+
+        <p>
+            Algebra • Trigonometry • Coordinate Geometry •
+            Calculus • Statistics
+        </p>
+
+        <button onclick="window.location.href='maths.html'">
+            🚀 Open Maths
+        </button>
+
+    </div>
+
+
+    <!-- ABOUT -->
+
+    <div class="about">
+
+        <h2>🚀 About Lernix11</h2>
+
+        <p>
+            <b>Lernix11</b> is a learning platform made for
+            Class 11 PCM students.
+        </p>
+
+        <p>📚 Physics • Chemistry • Maths</p>
+
+        <p>🎓 For Class 11 PCM Students</p>
+
+        <p>👨‍💻 Created by: Shivam Sah</p>
+
+        <p>📅 Created in: 2026</p>
+
+        <p>⭐ Version: 1.0</p>
+
+        <p>💡 Learn • Practice • Improve</p>
+
+    </div>
+
+
+    <div class="footer">
+
+        Made with ❤️ for PCM Students
+
+    </div>
+
+
+</body>
+
+</html>
